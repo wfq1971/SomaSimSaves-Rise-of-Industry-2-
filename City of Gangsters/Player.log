@@ -1,0 +1,566 @@
+Mono path[0] = 'I:/Games/City of Gangsters/CoG_Data/Managed'
+Mono config path = 'I:/Games/City of Gangsters/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path I:/Games/City of Gangsters/CoG_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8073 MB
+    Driver:   31.0.15.4601
+Begin MonoManager ReloadAssembly
+- Completed reload, in  7.055 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Error: Cannot create FMOD::Sound instance for clip "LONG_SILENCE" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_BuildingNoTrigger_Unrevealed_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_NewCar_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "BASE_BirdLoop_Morning" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_20" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "BASE_CityLoop_DAY" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_12" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_PoliceRaid_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Bass_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_12" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_BuildingNoTrigger_Residential_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_17" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_16" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_13" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_WINTER_SleighBells_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird20" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Trumpet_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_WINTER_Chimes_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_NewGang_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_Wind_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Trumpet_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Bass_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CarMove_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_12" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird15" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_OutOfMoves_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_TerritoryExpand_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_BuildingNoTrigger_Industrial_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird11" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_11" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Trombone_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_MoneyConfirm_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CombatHappened_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Vibes_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Dogs05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "ATLANTIC_Drums_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_14" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird21" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_TerritoryContract_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CornerReveal_Positive_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_Confirm_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_NewBuilding_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Tambourine_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_14" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Drums_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_11" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_16" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_Wind_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Strings_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_SkillLearned_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_BuildingNoTrigger_Commercial_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_ChangeBuildingTab_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Trumpet_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_TruckMove_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_11" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "ATLANTIC_Piano_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "WindLoop" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird14" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_IncrementUP_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_OutOfAction_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_StopAutomatedDelivery_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_TruckMove_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_QuestComplete" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird17" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Strings_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_ConstructionComplete_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Tambourine_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_Ticker_Interact_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Enemy_Drums_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_16" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Enemy_Bass_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CarMove_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_12" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_18" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CornerReveal_Neutral_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_Click_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_StartAutomatedDelivery_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "BASE_CricketLoop_Night" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_Wind_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Dogs04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_TruckMove_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Dogs02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "BASE_CityLoop_Night" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_11" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird19" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird13" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Enemy_Bass_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_SpecialClick_Residential_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_WINTER_Bells_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_SpecialClick_Police" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Tambourine_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Enemy_Drums_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_WINTER_Chimes_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_13" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SILENCE" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird16" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_SocialNetworkClick_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Dogs06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_WINTER_Chimes_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_21" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Tambourine_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_NewGoon_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_14" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_13" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Bass_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_SocialBoost_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_SpecialClick_Shop" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_19" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Dogs01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird06" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_11" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_15" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "ATLANTIC_Piano_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Strings_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird12" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Tambourine_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Tambourine_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_NewCrew_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Bass_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_17" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_15" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Vibes_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_WARNING_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Dogs03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_HealStart_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_SpecialClick_Industrial_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_Stall_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "City Sounds_08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_10" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Clarinet_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Vibes_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Drums_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Trombone_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_Wind_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_IncrementDOWN_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CarMove_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_NextTurn_04" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_CarMove_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Mandolin_05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Strings_07" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_PartyAlert_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "ATLANTIC_Drums_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns05" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_09" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_WINTER_Bells_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Accordion_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "ATLANTIC_Piano_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Piano_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_Ticker_Interact_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_InterestingBiz_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_NewFront_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Drums_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_Click_CrewAvatar_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "CitySounds_03" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Enemy_Drums_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Hub_Piano_15" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "UI_Confirm_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "SFX_Event_TruckMove_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "LONG_Friendly_Drums_02" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Bird18" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "Horns08" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "MUSIC_MainMenuLoop_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot load audio data for audio clip "LONG_SILENCE"
+Error: Cannot load audio data for audio clip "UI_BuildingNoTrigger_Unrevealed_01"
+Error: Cannot load audio data for audio clip "Bird05"
+Error: Cannot load audio data for audio clip "SFX_Event_NewCar_01"
+Error: Cannot load audio data for audio clip "BASE_BirdLoop_Morning"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_09"
+Error: Cannot load audio data for audio clip "CitySounds_20"
+Error: Cannot load audio data for audio clip "BASE_CityLoop_DAY"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_12"
+Error: Cannot load audio data for audio clip "SFX_Event_PoliceRaid_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Bass_02"
+Error: Cannot load audio data for audio clip "Mandolin_06"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_12"
+Error: Cannot load audio data for audio clip "UI_BuildingNoTrigger_Residential_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_17"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_16"
+Error: Cannot load audio data for audio clip "CitySounds_13"
+Error: Cannot load audio data for audio clip "Horns03"
+Error: Cannot load audio data for audio clip "LONG_WINTER_SleighBells_01"
+Error: Cannot load audio data for audio clip "Bird20"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Trumpet_03"
+Error: Cannot load audio data for audio clip "LONG_WINTER_Chimes_03"
+Error: Cannot load audio data for audio clip "Bird07"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_10"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_04"
+Error: Cannot load audio data for audio clip "SFX_Event_NewGang_01"
+Error: Cannot load audio data for audio clip "CitySounds_Wind_02"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Trumpet_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Bass_01"
+Error: Cannot load audio data for audio clip "SFX_Event_CarMove_03"
+Error: Cannot load audio data for audio clip "CitySounds_12"
+Error: Cannot load audio data for audio clip "Bird15"
+Error: Cannot load audio data for audio clip "SFX_Event_OutOfMoves_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_04"
+Error: Cannot load audio data for audio clip "SFX_Event_TerritoryExpand_01"
+Error: Cannot load audio data for audio clip "City Sounds_06"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_06"
+Error: Cannot load audio data for audio clip "UI_BuildingNoTrigger_Industrial_01"
+Error: Cannot load audio data for audio clip "Bird11"
+Error: Cannot load audio data for audio clip "City Sounds_11"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Trombone_02"
+Error: Cannot load audio data for audio clip "UI_MoneyConfirm_01"
+Error: Cannot load audio data for audio clip "SFX_Event_CombatHappened_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_03"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_02"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Vibes_01"
+Error: Cannot load audio data for audio clip "Accordion_06"
+Error: Cannot load audio data for audio clip "Dogs05"
+Error: Cannot load audio data for audio clip "Horns07"
+Error: Cannot load audio data for audio clip "ATLANTIC_Drums_02"
+Error: Cannot load audio data for audio clip "City Sounds_07"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_14"
+Error: Cannot load audio data for audio clip "Bird21"
+Error: Cannot load audio data for audio clip "SFX_Event_TerritoryContract_01"
+Error: Cannot load audio data for audio clip "Mandolin_04"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_01"
+Error: Cannot load audio data for audio clip "SFX_Event_CornerReveal_Positive_01"
+Error: Cannot load audio data for audio clip "UI_Confirm_03"
+Error: Cannot load audio data for audio clip "Horns04"
+Error: Cannot load audio data for audio clip "SFX_Event_NewBuilding_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_03"
+Error: Cannot load audio data for audio clip "Tambourine_06"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_14"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Drums_03"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_11"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_08"
+Error: Cannot load audio data for audio clip "CitySounds_16"
+Error: Cannot load audio data for audio clip "CitySounds_Wind_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Strings_02"
+Error: Cannot load audio data for audio clip "Bird08"
+Error: Cannot load audio data for audio clip "SFX_Event_SkillLearned_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_08"
+Error: Cannot load audio data for audio clip "UI_BuildingNoTrigger_Commercial_01"
+Error: Cannot load audio data for audio clip "UI_ChangeBuildingTab_01"
+Error: Cannot load audio data for audio clip "Horns09"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Trumpet_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_05"
+Error: Cannot load audio data for audio clip "SFX_Event_TruckMove_03"
+Error: Cannot load audio data for audio clip "Mandolin_03"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_11"
+Error: Cannot load audio data for audio clip "ATLANTIC_Piano_03"
+Error: Cannot load audio data for audio clip "WindLoop"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_06"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_01"
+Error: Cannot load audio data for audio clip "Bird14"
+Error: Cannot load audio data for audio clip "UI_IncrementUP_01"
+Error: Cannot load audio data for audio clip "SFX_Event_OutOfAction_01"
+Error: Cannot load audio data for audio clip "SFX_Event_StopAutomatedDelivery_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_04"
+Error: Cannot load audio data for audio clip "Horns06"
+Error: Cannot load audio data for audio clip "SFX_Event_TruckMove_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_07"
+Error: Cannot load audio data for audio clip "SFX_Event_QuestComplete"
+Error: Cannot load audio data for audio clip "Bird17"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Strings_03"
+Error: Cannot load audio data for audio clip "SFX_Event_ConstructionComplete_01"
+Error: Cannot load audio data for audio clip "Bird09"
+Error: Cannot load audio data for audio clip "Accordion_08"
+Error: Cannot load audio data for audio clip "Tambourine_03"
+Error: Cannot load audio data for audio clip "UI_Ticker_Interact_02"
+Error: Cannot load audio data for audio clip "City Sounds_09"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_03"
+Error: Cannot load audio data for audio clip "LONG_Enemy_Drums_03"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_16"
+Error: Cannot load audio data for audio clip "Accordion_09"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_02"
+Error: Cannot load audio data for audio clip "LONG_Enemy_Bass_03"
+Error: Cannot load audio data for audio clip "SFX_Event_CarMove_01"
+Error: Cannot load audio data for audio clip "Mandolin_08"
+Error: Cannot load audio data for audio clip "Mandolin_09"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_12"
+Error: Cannot load audio data for audio clip "CitySounds_18"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_02"
+Error: Cannot load audio data for audio clip "Accordion_03"
+Error: Cannot load audio data for audio clip "SFX_Event_CornerReveal_Neutral_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_05"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_01"
+Error: Cannot load audio data for audio clip "UI_Click_04"
+Error: Cannot load audio data for audio clip "SFX_Event_StartAutomatedDelivery_01"
+Error: Cannot load audio data for audio clip "BASE_CricketLoop_Night"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_06"
+Error: Cannot load audio data for audio clip "CitySounds_Wind_03"
+Error: Cannot load audio data for audio clip "Dogs04"
+Error: Cannot load audio data for audio clip "SFX_Event_TruckMove_04"
+Error: Cannot load audio data for audio clip "City Sounds_05"
+Error: Cannot load audio data for audio clip "Horns01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_06"
+Error: Cannot load audio data for audio clip "Accordion_05"
+Error: Cannot load audio data for audio clip "Dogs02"
+Error: Cannot load audio data for audio clip "BASE_CityLoop_Night"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_11"
+Error: Cannot load audio data for audio clip "Bird19"
+Error: Cannot load audio data for audio clip "Bird13"
+Error: Cannot load audio data for audio clip "LONG_Enemy_Bass_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_01"
+Error: Cannot load audio data for audio clip "UI_SpecialClick_Residential_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_06"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_01"
+Error: Cannot load audio data for audio clip "LONG_WINTER_Bells_03"
+Error: Cannot load audio data for audio clip "UI_SpecialClick_Police"
+Error: Cannot load audio data for audio clip "Tambourine_01"
+Error: Cannot load audio data for audio clip "Bird10"
+Error: Cannot load audio data for audio clip "LONG_Enemy_Drums_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_10"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_05"
+Error: Cannot load audio data for audio clip "LONG_WINTER_Chimes_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_05"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_05"
+Error: Cannot load audio data for audio clip "Accordion_10"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_04"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_13"
+Error: Cannot load audio data for audio clip "Horns02"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_07"
+Error: Cannot load audio data for audio clip "Mandolin_02"
+Error: Cannot load audio data for audio clip "SILENCE"
+Error: Cannot load audio data for audio clip "Bird16"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_01"
+Error: Cannot load audio data for audio clip "UI_SocialNetworkClick_01"
+Error: Cannot load audio data for audio clip "Dogs06"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_04"
+Error: Cannot load audio data for audio clip "LONG_WINTER_Chimes_02"
+Error: Cannot load audio data for audio clip "Mandolin_10"
+Error: Cannot load audio data for audio clip "CitySounds_21"
+Error: Cannot load audio data for audio clip "Tambourine_04"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_07"
+Error: Cannot load audio data for audio clip "SFX_Event_NewGoon_01"
+Error: Cannot load audio data for audio clip "CitySounds_14"
+Error: Cannot load audio data for audio clip "City Sounds_10"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_13"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_06"
+Error: Cannot load audio data for audio clip "CitySounds_04"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Bass_03"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_08"
+Error: Cannot load audio data for audio clip "Mandolin_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_05"
+Error: Cannot load audio data for audio clip "Accordion_07"
+Error: Cannot load audio data for audio clip "SFX_Event_SocialBoost_01"
+Error: Cannot load audio data for audio clip "Bird02"
+Error: Cannot load audio data for audio clip "UI_SpecialClick_Shop"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_09"
+Error: Cannot load audio data for audio clip "CitySounds_19"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_10"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_08"
+Error: Cannot load audio data for audio clip "Dogs01"
+Error: Cannot load audio data for audio clip "Bird06"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_11"
+Error: Cannot load audio data for audio clip "CitySounds_15"
+Error: Cannot load audio data for audio clip "ATLANTIC_Piano_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Strings_01"
+Error: Cannot load audio data for audio clip "Bird12"
+Error: Cannot load audio data for audio clip "Tambourine_05"
+Error: Cannot load audio data for audio clip "Bird04"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_07"
+Error: Cannot load audio data for audio clip "CitySounds_02"
+Error: Cannot load audio data for audio clip "Tambourine_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_09"
+Error: Cannot load audio data for audio clip "SFX_Event_NewCrew_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Bass_03"
+Error: Cannot load audio data for audio clip "CitySounds_17"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_07"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_15"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Vibes_02"
+Error: Cannot load audio data for audio clip "UI_WARNING_01"
+Error: Cannot load audio data for audio clip "Dogs03"
+Error: Cannot load audio data for audio clip "SFX_HealStart_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_08"
+Error: Cannot load audio data for audio clip "UI_SpecialClick_Industrial_01"
+Error: Cannot load audio data for audio clip "SFX_Event_Stall_01"
+Error: Cannot load audio data for audio clip "City Sounds_08"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_10"
+Error: Cannot load audio data for audio clip "LONG_Hub_Clarinet_02"
+Error: Cannot load audio data for audio clip "Mandolin_07"
+Error: Cannot load audio data for audio clip "Bird03"
+Error: Cannot load audio data for audio clip "Bird01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Vibes_03"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Drums_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Trombone_01"
+Error: Cannot load audio data for audio clip "CitySounds_01"
+Error: Cannot load audio data for audio clip "CitySounds_Wind_04"
+Error: Cannot load audio data for audio clip "UI_IncrementDOWN_01"
+Error: Cannot load audio data for audio clip "SFX_Event_CarMove_04"
+Error: Cannot load audio data for audio clip "Accordion_02"
+Error: Cannot load audio data for audio clip "Accordion_04"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_04"
+Error: Cannot load audio data for audio clip "UI_NextTurn_04"
+Error: Cannot load audio data for audio clip "SFX_Event_CarMove_02"
+Error: Cannot load audio data for audio clip "Mandolin_05"
+Error: Cannot load audio data for audio clip "LONG_Hub_Strings_07"
+Error: Cannot load audio data for audio clip "SFX_Event_PartyAlert_01"
+Error: Cannot load audio data for audio clip "ATLANTIC_Drums_01"
+Error: Cannot load audio data for audio clip "Horns05"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_09"
+Error: Cannot load audio data for audio clip "LONG_WINTER_Bells_02"
+Error: Cannot load audio data for audio clip "Accordion_01"
+Error: Cannot load audio data for audio clip "ATLANTIC_Piano_02"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Piano_03"
+Error: Cannot load audio data for audio clip "UI_Ticker_Interact_01"
+Error: Cannot load audio data for audio clip "SFX_Event_InterestingBiz_01"
+Error: Cannot load audio data for audio clip "SFX_Event_NewFront_01"
+Error: Cannot load audio data for audio clip "LONG_Hub_Drums_03"
+Error: Cannot load audio data for audio clip "UI_Click_CrewAvatar_01"
+Error: Cannot load audio data for audio clip "CitySounds_03"
+Error: Cannot load audio data for audio clip "LONG_Enemy_Drums_02"
+Error: Cannot load audio data for audio clip "LONG_Hub_Piano_15"
+Error: Cannot load audio data for audio clip "UI_Confirm_01"
+Error: Cannot load audio data for audio clip "SFX_Event_TruckMove_01"
+Error: Cannot load audio data for audio clip "LONG_Friendly_Drums_02"
+Error: Cannot load audio data for audio clip "Bird18"
+Error: Cannot load audio data for audio clip "Horns08"
+Error: Cannot load audio data for audio clip "MUSIC_MainMenuLoop_01"
+UnloadTime: 22.210800 ms
+Error: Cannot create FMOD::Sound instance for clip "WindLoop" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "WindLoop" (FMOD error: Unsupported file or audio format. )
+STARTING GAME
+Shader Level: 50
+Supports Compute Shaders: True
+BUILD 1.4.4  - PLATFORM  DesktopPlatform
+Setting up 10 worker threads for Enlighten.
+  Thread -> id: 2b44 -> priority: 1 
+  Thread -> id: 3f4 -> priority: 1 
+  Thread -> id: 2974 -> priority: 1 
+  Thread -> id: 59e0 -> priority: 1 
+  Thread -> id: 6d04 -> priority: 1 
+  Thread -> id: 3340 -> priority: 1 
+  Thread -> id: 392c -> priority: 1 
+  Thread -> id: 702c -> priority: 1 
+  Thread -> id: 17b4 -> priority: 1 
+  Thread -> id: 6828 -> priority: 1 
+Failed to load prefs: NoData
+Failed to load prefs: NoData
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\City of Gangsters\prefs\settings.txt
+Save settings.txt success!
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\City of Gangsters\prefs\gameplay.txt
+Save gameplay.txt success!
+Found models: 778
+Found maps: atlantic-city,chicago,cincinnati,detroit,new-york,philadelphia,pittsburgh
+Found ui: 267 entries
+Graphics model: Direct3D11, shader model 50, 8073 vram; 
+Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
+Device: Direct3D 11.0 [level 11.1]; 7040 NVIDIA GeForce GTX 1080; 4318 NVIDIA; 
+Screen size: 1920 x 1080, 96 dpi, 1.25 % ui scale, fullscreen = True
+Deluxe installed? True
+Installed dlcs: Deluxe, AtlanticCity, CriminalRecord, ShadowGovernment, EthPackPL, EthPackDE, EthPackIR, EthPackIT, EthPackEN
+Error: Cannot create FMOD::Sound instance for clip "MUSIC_MainMenuLoop_01" (FMOD error: Unsupported file or audio format. )
+Error: Cannot create FMOD::Sound instance for clip "MUSIC_MainMenuLoop_01" (FMOD error: Unsupported file or audio format. )
+Starting CS test
+Completed CS test: True
+Identified compute shader state: ResultPass
+Compute shaders: not affected
+Galaxy auth failure: FAILURE_REASON_GALAXY_SERVICE_NOT_AVAILABLE
+Galaxy failure
+Galaxy message pump shutting down...
+Galaxy dispose call
+Curl error 42: Callback aborted

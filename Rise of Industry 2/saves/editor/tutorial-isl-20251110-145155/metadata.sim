@@ -1,0 +1,14 @@
+{ 
+ displayName "约翰 史密斯 - Spoolsville"
+ money 10000906
+ gameTime "1980-08-05T04:24:36.0000000Z"
+ playerName "约翰 史密斯"
+ slotId tutorial-isl-20251110-145155
+ rngseed 888
+ bizName "初元物流股份有限公司"
+ campaignId editor
+ gameVersion 1000008
+ saveTime "2025-11-10T06:51:55.1387818Z"
+ mapName Spoolsville
+ mapId tutorial-island
+}

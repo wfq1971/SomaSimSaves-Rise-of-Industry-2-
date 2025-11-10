@@ -1,0 +1,17 @@
+{ 
+ game { 
+  useSystemLanguage #false
+  height 1080
+  qualitylevel 3
+  weatherEnabled #false
+  vsync 0
+  trafficEnabled #false
+  hz { denominator 1 numerator 60 }
+  width 1920
+  langid zh
+  fullscreen #true
+  maxfpsmode 2
+  depthOfField #false
+ }
+ enabledmods [  ]
+}

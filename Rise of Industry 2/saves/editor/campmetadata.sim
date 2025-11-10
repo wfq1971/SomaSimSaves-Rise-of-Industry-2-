@@ -1,0 +1,10 @@
+{ 
+ breakingSaveVersion 1
+ gameVersion 1000008
+ companyName "Tester Industries"
+ playerName Test
+ companyLogoFileId SomaSim
+ campaignId editor
+ rngseed 1
+ saveTime "2025-11-07T04:40:06.1122556Z"
+}

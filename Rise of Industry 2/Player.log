@@ -1,0 +1,193 @@
+Mono path[0] = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/Managed'
+Mono config path = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Initialize engine version: 2022.3.52f1 (1120fcb54228)
+[Subsystems] Discovering subsystems at path S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2965 MB
+    Driver:   32.0.15.6094
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.710 seconds
+- Finished resetting the current domain, in  0.002 seconds
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+UnloadTime: 29.606700 ms
+InControl (version 1.8.8 build 9375)
+STARTING GAME
+BUILD 1.0.8  - PLATFORM  DesktopPlatform
+Attached native device with handle 1:
+Name: OrayVHID
+Driver Type: DirectInput
+Location ID: \\?\hid#hidclass&col05#1&2d595ca7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Serial Number: 123456789
+Vendor ID: 0xff
+Product ID: 0x6f72
+Version Number: 0x0
+Buttons: 16
+Analogs: 8
+PLATFORM LAUNCH INTENT: Default
+Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
+Save settings.txt success!
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
+Save gameplay.txt success!
+Steam initialized for Birmingham Night Skyline
+Found entities: 957 entries
+Found models: 0
+Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
+Found ui
+Graphics model: Direct3D11, shader model 50, 2965 vram; 
+Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
+Device: Direct3D 11.0 [level 11.1]; 7170 NVIDIA GeForce GTX 1060 3GB; 4318 NVIDIA; 
+Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
+Installed dlcs: 
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
+the PS5 callback is being triggered
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 901815.
+Total: 281.365400 ms (FindLiveObjects: 104.946200 ms CreateObjectMapping: 12.635700 ms MarkObjects: 159.590300 ms  DeleteObjects: 4.192700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tutorial Town.mp4
+Unloading 24930 unused Assets to reduce memory usage. Loaded Objects now: 1213689.
+Total: 486.032900 ms (FindLiveObjects: 196.081100 ms CreateObjectMapping: 17.062600 ms MarkObjects: 255.656400 ms  DeleteObjects: 17.232400 ms)
+
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Complex & Admin.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Highway.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Oil Well.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Access Roads.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Connector.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Access Road.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Lines.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Water Connector.mp4
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Build Wrong.mp4
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Delete.mp4
+WindowsMediaFoundation received empty file S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Storage Tanks.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Loading Bay.mp4
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\editor\tutorial-isl-20251110-145155
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
+Save gameplay.txt success!
+Scene 'Terrain Tutorial' unloading has started!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Scene 'Generic Pools' unloading has started!
+Scene 'Terrain Tutorial' unloading has completed!
+Unloading 24997 unused Assets to reduce memory usage. Loaded Objects now: 575185.
+Total: 257.534600 ms (FindLiveObjects: 75.369300 ms CreateObjectMapping: 10.720800 ms MarkObjects: 135.281000 ms  DeleteObjects: 36.163200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Scene 'Generic Pools' unloading has completed!
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 145803.
+Total: 122.698400 ms (FindLiveObjects: 15.552200 ms CreateObjectMapping: 1.975000 ms MarkObjects: 104.289300 ms  DeleteObjects: 0.881700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 145803.
+Total: 141.569500 ms (FindLiveObjects: 17.109200 ms CreateObjectMapping: 1.913500 ms MarkObjects: 122.238400 ms  DeleteObjects: 0.308100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 145803.
+Total: 142.759600 ms (FindLiveObjects: 16.933100 ms CreateObjectMapping: 2.114900 ms MarkObjects: 123.354400 ms  DeleteObjects: 0.357000 ms)
+
+the PS5 callback is being triggered
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 942874.
+Total: 303.882700 ms (FindLiveObjects: 112.348800 ms CreateObjectMapping: 12.436600 ms MarkObjects: 174.926100 ms  DeleteObjects: 4.170800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24928 unused Assets to reduce memory usage. Loaded Objects now: 1252982.
+Total: 415.149100 ms (FindLiveObjects: 168.965300 ms CreateObjectMapping: 16.661700 ms MarkObjects: 213.791800 ms  DeleteObjects: 15.729900 ms)
+
+Scene 'Terrain Tutorial' unloading has started!
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Scene 'Generic Pools' unloading has started!
+Scene 'Terrain Tutorial' unloading has completed!
+Unloading 1187 unused Assets to reduce memory usage. Loaded Objects now: 574254.
+Total: 208.103500 ms (FindLiveObjects: 66.166600 ms CreateObjectMapping: 4.452200 ms MarkObjects: 126.845800 ms  DeleteObjects: 10.638600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Scene 'Generic Pools' unloading has completed!
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 144872.
+Total: 120.786500 ms (FindLiveObjects: 15.372100 ms CreateObjectMapping: 1.875200 ms MarkObjects: 102.562400 ms  DeleteObjects: 0.976500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 144883.
+Total: 146.256900 ms (FindLiveObjects: 17.974800 ms CreateObjectMapping: 2.166300 ms MarkObjects: 125.798000 ms  DeleteObjects: 0.317400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 144883.
+Total: 149.056200 ms (FindLiveObjects: 17.594300 ms CreateObjectMapping: 2.064600 ms MarkObjects: 129.120400 ms  DeleteObjects: 0.276100 ms)
+

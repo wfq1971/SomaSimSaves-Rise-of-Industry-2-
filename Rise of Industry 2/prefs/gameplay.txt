@@ -1,0 +1,5 @@
+{ 
+ seenhints [  ]
+ stats { uuid b2d00c94 sessioncount 4 }
+ seentutorials [ map-01 ]
+}

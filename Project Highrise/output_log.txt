@@ -1,0 +1,70 @@
+Initialize engine version: 2017.4.4f1 (645c9050ba4d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   32.0.15.7260
+Begin MonoManager ReloadAssembly
+- Completed reload, in  1.756 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.906500 ms
+Initializing Project Highrise version 1.6.3.v20190114
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading text: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Entities.scm
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading text: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Settings.scm
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading text: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Layouts.scm
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading data: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Loc/en.txt.zip
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading data: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Loc/zh.txt.zip
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading text: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Prolog/integrity_checks.prolog
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading text: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Tutorial/TutorialDefinitions.scm
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Started loading text: S:/SteamLibrary/steamapps/common/Project Highrise/Game_Data/StreamingAssets\Scenarios/ScenarioDefinitions.scm
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Services initialized.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 375 unused Assets to reduce memory usage. Loaded Objects now: 2883.
+Total: 49.188300 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.063200 ms MarkObjects: 48.732400 ms  DeleteObjects: 0.104200 ms)
+
+Setting up 10 worker threads for Enlighten.
+  Thread -> id: 5b2c -> priority: 1 
+  Thread -> id: 9020 -> priority: 1 
+  Thread -> id: 89c4 -> priority: 1 
+  Thread -> id: 1f8 -> priority: 1 
+  Thread -> id: 9298 -> priority: 1 
+  Thread -> id: 5be4 -> priority: 1 
+  Thread -> id: 84f8 -> priority: 1 
+  Thread -> id: 4484 -> priority: 1 
+  Thread -> id: 70a4 -> priority: 1 
+  Thread -> id: 48a0 -> priority: 1 
