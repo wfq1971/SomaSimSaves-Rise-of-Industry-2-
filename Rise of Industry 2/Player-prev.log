@@ -8,18 +8,18 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   NVIDIA
-    VRAM:     2988 MB
-    Driver:   30.0.15.1215
+    VRAM:     2965 MB
+    Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.103 seconds
-- Finished resetting the current domain, in  0.004 seconds
+- Loaded All Assemblies, in  3.710 seconds
+- Finished resetting the current domain, in  0.002 seconds
 <RI> Initializing input.
 New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-UnloadTime: 42.072800 ms
+UnloadTime: 29.606700 ms
 InControl (version 1.8.8 build 9375)
 STARTING GAME
 BUILD 1.0.8  - PLATFORM  DesktopPlatform
@@ -44,7 +44,7 @@ Found entities: 957 entries
 Found models: 0
 Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
 Found ui
-Graphics model: Direct3D11, shader model 50, 2988 vram; 
+Graphics model: Direct3D11, shader model 50, 2965 vram; 
 Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
 Device: Direct3D 11.0 [level 11.1]; 7170 NVIDIA GeForce GTX 1060 3GB; 4318 NVIDIA; 
 Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
@@ -52,303 +52,142 @@ Installed dlcs:
 Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
 the PS5 callback is being triggered
 Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 901765.
-Total: 435.340800 ms (FindLiveObjects: 164.562900 ms CreateObjectMapping: 21.544600 ms MarkObjects: 244.582900 ms  DeleteObjects: 4.649900 ms)
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 901815.
+Total: 281.365400 ms (FindLiveObjects: 104.946200 ms CreateObjectMapping: 12.635700 ms MarkObjects: 159.590300 ms  DeleteObjects: 4.192700 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tutorial Town.mp4
-Unloading 24933 unused Assets to reduce memory usage. Loaded Objects now: 1213664.
-Total: 512.985400 ms (FindLiveObjects: 216.602000 ms CreateObjectMapping: 20.444800 ms MarkObjects: 257.886900 ms  DeleteObjects: 18.051300 ms)
+Unloading 24930 unused Assets to reduce memory usage. Loaded Objects now: 1213689.
+Total: 486.032900 ms (FindLiveObjects: 196.081100 ms CreateObjectMapping: 17.062600 ms MarkObjects: 255.656400 ms  DeleteObjects: 17.232400 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Complex & Admin.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Highway.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Oil Well.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Access Roads.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Connector.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Access Road.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Lines.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Water Connector.mp4
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Build Wrong.mp4
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Delete.mp4
+WindowsMediaFoundation received empty file S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Storage Tanks.mp4
+Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Loading Bay.mp4
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\editor\tutorial-isl-20251110-145155
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
+Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
+Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
+Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
+Save gameplay.txt success!
 Scene 'Terrain Tutorial' unloading has started!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
 Scene 'Generic Pools' unloading has started!
 Scene 'Terrain Tutorial' unloading has completed!
-Unloading 3114 unused Assets to reduce memory usage. Loaded Objects now: 535754.
-Total: 1342.002900 ms (FindLiveObjects: 123.992500 ms CreateObjectMapping: 8.263800 ms MarkObjects: 220.288000 ms  DeleteObjects: 989.457800 ms)
+Unloading 24997 unused Assets to reduce memory usage. Loaded Objects now: 575185.
+Total: 257.534600 ms (FindLiveObjects: 75.369300 ms CreateObjectMapping: 10.720800 ms MarkObjects: 135.281000 ms  DeleteObjects: 36.163200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Scene 'Generic Pools' unloading has completed!
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 106383.
-Total: 169.933900 ms (FindLiveObjects: 22.888900 ms CreateObjectMapping: 51.099200 ms MarkObjects: 72.847700 ms  DeleteObjects: 23.097500 ms)
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 145803.
+Total: 122.698400 ms (FindLiveObjects: 15.552200 ms CreateObjectMapping: 1.975000 ms MarkObjects: 104.289300 ms  DeleteObjects: 0.881700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 106383.
-Total: 98.223100 ms (FindLiveObjects: 14.451800 ms CreateObjectMapping: 1.809200 ms MarkObjects: 81.628400 ms  DeleteObjects: 0.333300 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 145803.
+Total: 141.569500 ms (FindLiveObjects: 17.109200 ms CreateObjectMapping: 1.913500 ms MarkObjects: 122.238400 ms  DeleteObjects: 0.308100 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 106383.
-Total: 92.090500 ms (FindLiveObjects: 13.154800 ms CreateObjectMapping: 1.863700 ms MarkObjects: 76.787200 ms  DeleteObjects: 0.284600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 145803.
+Total: 142.759600 ms (FindLiveObjects: 16.933100 ms CreateObjectMapping: 2.114900 ms MarkObjects: 123.354400 ms  DeleteObjects: 0.357000 ms)
 
-Memory Statistics:
-[ALLOC_TEMP_TLS] TLS Allocator
-  StackAllocators : 
-    [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 800 frames, [8.0 KB-16.0 KB]: 66 frames, [16.0 KB-32.0 KB]: 2 frames, [32.0 KB-64.0 KB]: 3 frames, [64.0 KB-128.0 KB]: 21 frames, [128.0 KB-256.0 KB]: 158 frames, [256.0 KB-0.5 MB]: 28 frames, [0.5 MB-1.0 MB]: 22528 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 12 frames, [4.0 MB-8.0 MB]: 7 frames
-      Initial Block Size 4.0 MB
-      Current Block Size 7.1 MB
-      Peak Allocated Bytes 7.1 MB
-      Overflow Count 11
-    [ALLOC_TEMP_Loading.AsyncRead]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 279 B
-      Overflow Count 0
-    [ALLOC_TEMP_Loading.PreloadManager]
-      Initial Block Size 256.0 KB
-      Current Block Size 0.5 MB
-      Peak Allocated Bytes 493.7 KB
-      Overflow Count 163
-    [ALLOC_TEMP_Background Job.Worker 8]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 9]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 0]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 130.2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 14]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 6]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 12]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 2
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 15]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.0 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 2]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 2.0 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 7]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_UnityGfxDeviceWorker]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 174.3 KB
-      Overflow Count 1
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 5]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 13]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 1]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 136.5 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 2]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 134.7 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 3]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 11]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 0]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_CloudJob.Worker 0]
-      Initial Block Size 32.0 KB
-      Current Block Size 44.0 KB
-      Peak Allocated Bytes 19.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_HIDInput]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 10.8 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 4]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_BatchDeleteObjects]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-[ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 340364
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 2274029
-        32B: 18 Subsections = 9216 buckets. Failed count: 398036
-        48B: 34 Subsections = 11605 buckets. Failed count: 1800205
-        64B: 21 Subsections = 5376 buckets. Failed count: 279971
-        80B: 86 Subsections = 17612 buckets. Failed count: 69531
-        96B: 5 Subsections = 853 buckets. Failed count: 1226634
-        112B: 2 Subsections = 292 buckets. Failed count: 40864
-        128B: 2 Subsections = 256 buckets. Failed count: 365893
-    [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 84 frames, [64.0 MB-128.0 MB]: 775 frames, [128.0 MB-256.0 MB]: 85 frames, [256.0 MB-0.50 GB]: 22682 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 16
-      Peak Allocated memory 354.6 MB
-      Peak Large allocation bytes 148.4 MB
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 454 frames, [16.0 MB-32.0 MB]: 184 frames, [32.0 MB-64.0 MB]: 22798 frames, [64.0 MB-128.0 MB]: 190 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 4
-      Peak Allocated memory 104.2 MB
-      Peak Large allocation bytes 85.3 MB
-[ALLOC_TEMP_JOB_1_FRAME]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_2_FRAMES]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
-  Initial Block Size 2.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 4
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_ASYNC (Background)]
-  Initial Block Size 1.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 3
-  Overflow Count (full) 0
-[ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 749
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 2274029
-        32B: 18 Subsections = 9216 buckets. Failed count: 398036
-        48B: 34 Subsections = 11605 buckets. Failed count: 1800205
-        64B: 21 Subsections = 5376 buckets. Failed count: 279971
-        80B: 86 Subsections = 17612 buckets. Failed count: 69531
-        96B: 5 Subsections = 853 buckets. Failed count: 1226634
-        112B: 2 Subsections = 292 buckets. Failed count: 40864
-        128B: 2 Subsections = 256 buckets. Failed count: 365893
-    [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 80 frames, [0.5 MB-1.0 MB]: 688 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 117 frames, [8.0 MB-16.0 MB]: 1 frames, [16.0 MB-32.0 MB]: 6 frames, [32.0 MB-64.0 MB]: 4 frames, [64.0 MB-128.0 MB]: 7 frames, [128.0 MB-256.0 MB]: 22722 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 6
-      Peak Allocated memory 182.5 MB
-      Peak Large allocation bytes 112.1 MB
-    [ALLOC_GFX_THREAD]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 6 frames, [1.0 MB-2.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 72 frames, [16.0 MB-32.0 MB]: 552 frames, [32.0 MB-64.0 MB]: 54 frames, [64.0 MB-128.0 MB]: 32 frames, [128.0 MB-256.0 MB]: 22908 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 226.8 MB
-      Peak Large allocation bytes 154.7 MB
-[ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 41500
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 2274029
-        32B: 18 Subsections = 9216 buckets. Failed count: 398036
-        48B: 34 Subsections = 11605 buckets. Failed count: 1800205
-        64B: 21 Subsections = 5376 buckets. Failed count: 279971
-        80B: 86 Subsections = 17612 buckets. Failed count: 69531
-        96B: 5 Subsections = 853 buckets. Failed count: 1226634
-        112B: 2 Subsections = 292 buckets. Failed count: 40864
-        128B: 2 Subsections = 256 buckets. Failed count: 365893
-    [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 23625 frames, [256.0 MB-0.50 GB]: 1 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 31
-      Peak Allocated memory 260.5 MB
-      Peak Large allocation bytes 149.7 MB
-    [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [0.5 MB-1.0 MB]: 6 frames, [1.0 MB-2.0 MB]: 1 frames, [16.0 MB-32.0 MB]: 40 frames, [32.0 MB-64.0 MB]: 701 frames, [64.0 MB-128.0 MB]: 53 frames, [128.0 MB-256.0 MB]: 30 frames, [256.0 MB-0.50 GB]: 22788 frames, [0.50 GB-1.00 GB]: 7 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 75
-      Peak Allocated memory 0.58 GB
-      Peak Large allocation bytes 345.7 MB
-[ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 2
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 2274029
-        32B: 18 Subsections = 9216 buckets. Failed count: 398036
-        48B: 34 Subsections = 11605 buckets. Failed count: 1800205
-        64B: 21 Subsections = 5376 buckets. Failed count: 279971
-        80B: 86 Subsections = 17612 buckets. Failed count: 69531
-        96B: 5 Subsections = 853 buckets. Failed count: 1226634
-        112B: 2 Subsections = 292 buckets. Failed count: 40864
-        128B: 2 Subsections = 256 buckets. Failed count: 365893
-    [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 364 frames, [16.0 KB-32.0 KB]: 23262 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 1
-      Peak Allocated memory 18.1 KB
-      Peak Large allocation bytes 0 B
-    [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [16.0 KB-32.0 KB]: 777 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 22848 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 1
-      Peak Allocated memory 85.6 KB
-      Peak Large allocation bytes 0 B
+the PS5 callback is being triggered
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 942874.
+Total: 303.882700 ms (FindLiveObjects: 112.348800 ms CreateObjectMapping: 12.436600 ms MarkObjects: 174.926100 ms  DeleteObjects: 4.170800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24928 unused Assets to reduce memory usage. Loaded Objects now: 1252982.
+Total: 415.149100 ms (FindLiveObjects: 168.965300 ms CreateObjectMapping: 16.661700 ms MarkObjects: 213.791800 ms  DeleteObjects: 15.729900 ms)
+
+Scene 'Terrain Tutorial' unloading has started!
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Scene 'Generic Pools' unloading has started!
+Scene 'Terrain Tutorial' unloading has completed!
+Unloading 1187 unused Assets to reduce memory usage. Loaded Objects now: 574254.
+Total: 208.103500 ms (FindLiveObjects: 66.166600 ms CreateObjectMapping: 4.452200 ms MarkObjects: 126.845800 ms  DeleteObjects: 10.638600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Scene 'Generic Pools' unloading has completed!
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 144872.
+Total: 120.786500 ms (FindLiveObjects: 15.372100 ms CreateObjectMapping: 1.875200 ms MarkObjects: 102.562400 ms  DeleteObjects: 0.976500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 144883.
+Total: 146.256900 ms (FindLiveObjects: 17.974800 ms CreateObjectMapping: 2.166300 ms MarkObjects: 125.798000 ms  DeleteObjects: 0.317400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 144883.
+Total: 149.056200 ms (FindLiveObjects: 17.594300 ms CreateObjectMapping: 2.064600 ms MarkObjects: 129.120400 ms  DeleteObjects: 0.276100 ms)
+
