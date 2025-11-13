@@ -1,0 +1,106 @@
+Mono path[0] = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/Managed'
+Mono config path = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/MonoBleedingEdge/etc'
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-000001D509C02FD0.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-000001D50EF2A040.dll
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Initialize engine version: 2022.3.52f1 (1120fcb54228)
+[Subsystems] Discovering subsystems at path S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2965 MB
+    Driver:   32.0.15.6094
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.039 seconds
+- Finished resetting the current domain, in  0.007 seconds
+[Message:   BepInEx] BepInEx 5.4.21.0 - ROI2 (2025/11/7 上午 01:30:09)
+[Info   :   BepInEx] Running under Unity v2022.3.52.1122556
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 2 plugins to load
+[Info   :   BepInEx] Loading [XUnity Auto Translator 5.4.0]
+OnLevelWasLoaded was found on AutoTranslationPlugin
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+[Debug  :XUnity.AutoTranslator] Screen resolution determine to be: 304x201
+[Info   :XUnity.AutoTranslator] Version of TextMesh Pro: 1.4.0.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Text.set_text through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Text.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TextMeshProUGUI.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TextMeshPro.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.set_text through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetCharArray through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetCharArray through Harmony hooks.
+[Warning:  HarmonyX] AccessTools.Method: Could not find method for type TMPro.TMP_Text and name SetCharArray and parameters (int[], int, int)
+[Warning:XUnity.AutoTranslator] Could not hook 'TMP_Text_SetCharArray_Hook3'. Likely due differences between different versions of the engine or text framework.
+[Debug  :XUnity.AutoTranslator] Disabling certificate checks for endpoints because of configuration.
+[Debug  :XUnity.AutoTranslator] Probing whether OnLevelWasLoaded or SceneManager is supported in this version of Unity. Any warnings related to OnLevelWasLoaded coming from Unity can safely be ignored.
+[Debug  :XUnity.AutoTranslator] SceneManager is supported in this version of Unity.
+[Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
+[Info   :XUnity.AutoTranslator] Loaded TextMesh Pro font uses version: 1.1.0
+[Warning:XUnity.AutoTranslator] TextMesh Pro version mismatch. Font asset version: 1.1.0, TextMesh Pro version: 1.4.0
+[Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
+[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
+[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
+[Debug  :XUnity.AutoTranslator] Created variation translations (took -0.04 seconds)
+[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
+[Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2022.3.52f1] game.
+[Info   :   BepInEx] Loading [XUnity Resource Redirector 2.1.0]
+[Message:   BepInEx] Chainloader startup complete
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+UnloadTime: 171.075200 ms
+InControl (version 1.8.8 build 9375)
+STARTING GAME
+BUILD 1.0.8  - PLATFORM  DesktopPlatform
+Attached native device with handle 1:
+Name: OrayVHID
+Driver Type: DirectInput
+Location ID: \\?\hid#hidclass&col05#1&2d595ca7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Serial Number: 123456789
+Vendor ID: 0xff
+Product ID: 0x6f72
+Version Number: 0x0
+Buttons: 16
+Analogs: 8
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
+PLATFORM LAUNCH INTENT: Default
+Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
+Save settings.txt success!
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
+Save gameplay.txt success!
+Steam initialized for Birmingham Night Skyline
+Found entities: 957 entries
+Found models: 0
+Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
+Found ui
+Graphics model: Direct3D11, shader model 50, 2965 vram; 
+Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
+Device: Direct3D 11.0 [level 11.1]; 7170 NVIDIA GeForce GTX 1060 3GB; 4318 NVIDIA; 
+Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
+Installed dlcs: 
+Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
+the PS5 callback is being triggered
+Unloading 11 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 897135.
+Total: 623.708800 ms (FindLiveObjects: 143.799100 ms CreateObjectMapping: 14.951400 ms MarkObjects: 459.282700 ms  DeleteObjects: 5.675000 ms)
+
