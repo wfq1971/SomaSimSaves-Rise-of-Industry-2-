@@ -1,0 +1,14 @@
+{ 
+ displayName "wpf cs - 加利福尼亚州阿纳海姆"
+ money 21474836
+ gameTime "1982-03-06T19:05:23.0000000Z"
+ playerName "wpf cs"
+ slotId anaheim-20251113-003323
+ rngseed 3426383818
+ bizName "cs corp"
+ campaignId sandbox
+ gameVersion 1000008
+ saveTime "2025-11-12T16:33:23.8418885Z"
+ mapName "加利福尼亚州阿纳海姆"
+ mapId anaheim
+}

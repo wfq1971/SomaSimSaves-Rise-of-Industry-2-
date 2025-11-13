@@ -1,5 +1,7 @@
 Mono path[0] = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/Managed'
 Mono config path = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/MonoBleedingEdge/etc'
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-00000273A1F04000.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-00000273A723E040.dll
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 Initialize engine version: 2022.3.52f1 (1120fcb54228)
 [Subsystems] Discovering subsystems at path S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/UnitySubsystems
@@ -11,15 +13,61 @@ Direct3D:
     VRAM:     2965 MB
     Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.710 seconds
+- Loaded All Assemblies, in  0.328 seconds
 - Finished resetting the current domain, in  0.002 seconds
+[Message:   BepInEx] BepInEx 5.4.21.0 - ROI2 (2025/11/7 上午 01:30:09)
+[Info   :   BepInEx] Running under Unity v2022.3.52.1122556
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 2 plugins to load
+[Info   :   BepInEx] Loading [XUnity Auto Translator 5.4.0]
+OnLevelWasLoaded was found on AutoTranslationPlugin
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+[Debug  :XUnity.AutoTranslator] Screen resolution determine to be: 304x201
+[Info   :XUnity.AutoTranslator] Version of TextMesh Pro: 1.4.0.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Text.set_text through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Text.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TextMeshProUGUI.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TextMeshPro.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.set_text through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetCharArray through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetCharArray through Harmony hooks.
+[Warning:  HarmonyX] AccessTools.Method: Could not find method for type TMPro.TMP_Text and name SetCharArray and parameters (int[], int, int)
+[Warning:XUnity.AutoTranslator] Could not hook 'TMP_Text_SetCharArray_Hook3'. Likely due differences between different versions of the engine or text framework.
+[Debug  :XUnity.AutoTranslator] Disabling certificate checks for endpoints because of configuration.
+[Debug  :XUnity.AutoTranslator] Probing whether OnLevelWasLoaded or SceneManager is supported in this version of Unity. Any warnings related to OnLevelWasLoaded coming from Unity can safely be ignored.
+[Debug  :XUnity.AutoTranslator] SceneManager is supported in this version of Unity.
+[Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
+[Info   :XUnity.AutoTranslator] Loaded TextMesh Pro font uses version: 1.1.0
+[Warning:XUnity.AutoTranslator] TextMesh Pro version mismatch. Font asset version: 1.1.0, TextMesh Pro version: 1.4.0
+[Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
+[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
+[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
+[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
+[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
+[Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2022.3.52f1] game.
+[Info   :   BepInEx] Loading [XUnity Resource Redirector 2.1.0]
+[Message:   BepInEx] Chainloader startup complete
 <RI> Initializing input.
 New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-UnloadTime: 29.606700 ms
+UnloadTime: 0.946400 ms
 InControl (version 1.8.8 build 9375)
 STARTING GAME
 BUILD 1.0.8  - PLATFORM  DesktopPlatform
@@ -33,6 +81,7 @@ Product ID: 0x6f72
 Version Number: 0x0
 Buttons: 16
 Analogs: 8
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
 PLATFORM LAUNCH INTENT: Default
 Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
 Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
@@ -51,143 +100,68 @@ Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
 Installed dlcs: 
 Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
 the PS5 callback is being triggered
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 901815.
-Total: 281.365400 ms (FindLiveObjects: 104.946200 ms CreateObjectMapping: 12.635700 ms MarkObjects: 159.590300 ms  DeleteObjects: 4.192700 ms)
+Unloading 11 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 897196.
+Total: 611.073700 ms (FindLiveObjects: 139.301100 ms CreateObjectMapping: 13.944800 ms MarkObjects: 453.428300 ms  DeleteObjects: 4.398800 ms)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tutorial Town.mp4
-Unloading 24930 unused Assets to reduce memory usage. Loaded Objects now: 1213689.
-Total: 486.032900 ms (FindLiveObjects: 196.081100 ms CreateObjectMapping: 17.062600 ms MarkObjects: 255.656400 ms  DeleteObjects: 17.232400 ms)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 48772 unused Assets to reduce memory usage. Loaded Objects now: 2144283.
+Total: 1543.243000 ms (FindLiveObjects: 504.627700 ms CreateObjectMapping: 48.119100 ms MarkObjects: 941.404400 ms  DeleteObjects: 49.091200 ms)
 
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Complex & Admin.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Highway.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Oil Well.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Access Roads.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Connector.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Access Road.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Power Lines.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Water Connector.mp4
-Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Build Wrong.mp4
-Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Delete.mp4
-WindowsMediaFoundation received empty file S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Storage Tanks.mp4
-Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets/Clips/Tut/zh/Tut Loading Bay.mp4
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\editor\tutorial-isl-20251110-145155
-Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
-Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
-Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
-Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
-Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
-Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
-Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
-Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
-Missing contract variation for ContractArchetypeID:plastic-purchase-small in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-medium in CID_17?
-Missing contract variation for ContractArchetypeID:plastic-purchase-large in CID_17?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:oil-purchase-small-tutorial in CID_21?
-Missing contract variation for ContractArchetypeID:paper-sales-small-tutorial in CID_24?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cassettes-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:cds-purchase-large in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-small in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-medium in CID_33?
-Missing contract variation for ContractArchetypeID:vinyl-records-purchase-large in CID_33?
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
-Save gameplay.txt success!
-Scene 'Terrain Tutorial' unloading has started!
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException: Object reference not set to an instance of an object
+  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
+  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
+InControl.InControlInputModule:ProcessMouseEvent(Int32)
+InControl.InControlInputModule:ProcessMouseEvent()
+InControl.InControlInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\sandbox\anaheim-20251113-004652-autosave
+NullReferenceException: Object reference not set to an instance of an object
+  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
+  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
+InControl.InControlInputModule:ProcessMouseEvent(Int32)
+InControl.InControlInputModule:ProcessMouseEvent()
+InControl.InControlInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\sandbox\anaheim-20251113-122841
+Scene 'Terrain Anaheim' unloading has started!
 Scene 'Generic Pools' unloading has started!
-Scene 'Terrain Tutorial' unloading has completed!
-Unloading 24997 unused Assets to reduce memory usage. Loaded Objects now: 575185.
-Total: 257.534600 ms (FindLiveObjects: 75.369300 ms CreateObjectMapping: 10.720800 ms MarkObjects: 135.281000 ms  DeleteObjects: 36.163200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Scene 'Generic Pools' unloading has completed!
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 145803.
-Total: 122.698400 ms (FindLiveObjects: 15.552200 ms CreateObjectMapping: 1.975000 ms MarkObjects: 104.289300 ms  DeleteObjects: 0.881700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 145803.
-Total: 141.569500 ms (FindLiveObjects: 17.109200 ms CreateObjectMapping: 1.913500 ms MarkObjects: 122.238400 ms  DeleteObjects: 0.308100 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 145803.
-Total: 142.759600 ms (FindLiveObjects: 16.933100 ms CreateObjectMapping: 2.114900 ms MarkObjects: 123.354400 ms  DeleteObjects: 0.357000 ms)
-
-the PS5 callback is being triggered
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 942874.
-Total: 303.882700 ms (FindLiveObjects: 112.348800 ms CreateObjectMapping: 12.436600 ms MarkObjects: 174.926100 ms  DeleteObjects: 4.170800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24928 unused Assets to reduce memory usage. Loaded Objects now: 1252982.
-Total: 415.149100 ms (FindLiveObjects: 168.965300 ms CreateObjectMapping: 16.661700 ms MarkObjects: 213.791800 ms  DeleteObjects: 15.729900 ms)
-
-Scene 'Terrain Tutorial' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Scene 'Generic Pools' unloading has started!
-Scene 'Terrain Tutorial' unloading has completed!
-Unloading 1187 unused Assets to reduce memory usage. Loaded Objects now: 574254.
-Total: 208.103500 ms (FindLiveObjects: 66.166600 ms CreateObjectMapping: 4.452200 ms MarkObjects: 126.845800 ms  DeleteObjects: 10.638600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Scene 'Generic Pools' unloading has completed!
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 144872.
-Total: 120.786500 ms (FindLiveObjects: 15.372100 ms CreateObjectMapping: 1.875200 ms MarkObjects: 102.562400 ms  DeleteObjects: 0.976500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 144883.
-Total: 146.256900 ms (FindLiveObjects: 17.974800 ms CreateObjectMapping: 2.166300 ms MarkObjects: 125.798000 ms  DeleteObjects: 0.317400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 144883.
-Total: 149.056200 ms (FindLiveObjects: 17.594300 ms CreateObjectMapping: 2.064600 ms MarkObjects: 129.120400 ms  DeleteObjects: 0.276100 ms)
-
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)

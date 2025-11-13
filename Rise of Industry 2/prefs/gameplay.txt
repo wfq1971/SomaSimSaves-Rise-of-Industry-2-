@@ -1,5 +1,5 @@
 { 
  seenhints [ tut.event.production-manual tut.event.ledger tut.event.managers tut.event.delete-inside tut.event.spoiled tut.event.built-industry tut.event.water-approaching tut.event.started-contract tut.event.byproduct tut.event.water-usage tut.event.delivery tut.event.needs-power tut.event.missing-storage tut.event.water-above ]
- stats { uuid b2d00c94 sessioncount 5 }
+ stats { uuid b2d00c94 sessioncount 13 }
  seentutorials [ map-01 ]
 }
