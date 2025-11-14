@@ -197,3 +197,24 @@ Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 58909 unused Assets to reduce memory usage. Loaded Objects now: 2327586.
 Total: 1206.471900 ms (FindLiveObjects: 449.398800 ms CreateObjectMapping: 40.129100 ms MarkObjects: 679.650000 ms  DeleteObjects: 37.293300 ms)
 
+Scene 'Terrain Anaheim' unloading has started!
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Scene 'Generic Pools' unloading has started!
+Scene 'Terrain Anaheim' unloading has completed!
+Unloading 3272 unused Assets to reduce memory usage. Loaded Objects now: 685837.
+Total: 281.908900 ms (FindLiveObjects: 89.694700 ms CreateObjectMapping: 13.331500 ms MarkObjects: 157.840700 ms  DeleteObjects: 21.041500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Scene 'Generic Pools' unloading has completed!
+the PS5 callback is being triggered
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 154432.
+Total: 650.325700 ms (FindLiveObjects: 18.320300 ms CreateObjectMapping: 2.126000 ms MarkObjects: 628.846400 ms  DeleteObjects: 1.032200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154432.
+Total: 1251.599400 ms (FindLiveObjects: 144.348800 ms CreateObjectMapping: 10.231600 ms MarkObjects: 1096.699700 ms  DeleteObjects: 0.318900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154432.
+Total: 829.084600 ms (FindLiveObjects: 22.149200 ms CreateObjectMapping: 4.017600 ms MarkObjects: 802.637200 ms  DeleteObjects: 0.280200 ms)
+
