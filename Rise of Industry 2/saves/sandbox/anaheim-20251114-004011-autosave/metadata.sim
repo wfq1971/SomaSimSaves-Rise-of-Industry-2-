@@ -1,0 +1,15 @@
+{ 
+ bizName "cs corp"
+ slotId anaheim-20251114-004011-autosave
+ autosave #true
+ mapId anaheim
+ mapName "加利福尼亚州阿纳海姆"
+ rngseed 3426383818
+ playerName "wpf cs"
+ saveTime "2025-11-13T16:40:11.3049383Z"
+ gameTime "1982-11-03T00:01:01.0000000Z"
+ money 21474836
+ displayName "wpf cs - 加利福尼亚州阿纳海姆"
+ campaignId sandbox
+ gameVersion 1000008
+}
