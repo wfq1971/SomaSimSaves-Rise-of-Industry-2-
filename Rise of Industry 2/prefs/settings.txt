@@ -1,16 +1,17 @@
 { 
  game { 
+  trafficEnabled #false
+  fullscreen #true
+  width 1920
+  weatherEnabled #false
+  langid zh
+  vsync 0
+  hz { denominator 1 numerator 60 }
+  maxfpsmode 2
   useSystemLanguage #false
   height 1080
   qualitylevel 3
-  weatherEnabled #false
-  vsync 0
-  trafficEnabled #false
-  hz { denominator 1 numerator 60 }
-  width 1920
-  langid zh
-  fullscreen #true
-  maxfpsmode 2
+  hasPromptedRev #true
   depthOfField #false
  }
  enabledmods [  ]

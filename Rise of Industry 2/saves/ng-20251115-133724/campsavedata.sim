@@ -1,0 +1,133 @@
+{ 
+ id ng-20251115-133724
+ compname "台灣重工業公司"
+ mapProgress { 
+  burlington { cityId burlington }
+  milwaukee { cityId milwaukee }
+  peoria { cityId peoria }
+  chandler { cityId chandler }
+  cleveland { 
+   highWater 21474836
+   cityId cleveland
+   mapStarsCompleted 3
+   started #true
+  }
+ }
+ boss { 
+  ident 1
+  xp {  }
+  permanentBuffs { 
+   states [  ]
+  }
+  person { 
+   traitIds [  ]
+   s 1
+   g 1
+   first Tim
+   portrait { 
+    s 1
+    hash 1741000827
+    pieces [ male white M_White_Hair05Back M_White_Hair05 M_Outfit07 M_Outfit07Skin_White Empty_Hair_Mid M_White_Head01 M_White_Eyes04 M_Test_Eyebrows02 M_White_Nose02 M_White_Mouth03 X_Glasses03_Rimless ]
+    g 1
+   }
+   last Ng
+   eth am
+  }
+  metTitle 10
+  metLocation cleveland
+ }
+ elevatedPeeps [ 
+  { 
+   ident 3
+   xp {  }
+   companyTitle Us
+   person { 
+    traitIds [ trait-competitive trait-luddite ]
+    s 3
+    g 1
+    first Charlie
+    cIdent 3
+    portrait { 
+     s 3
+     hash 3729495893
+     pieces [ black male Empty_Hair_Back M_Outfit02 M_Outfit02Skin_Black Empty_Hair_Mid M_Black_Head04 M_Black_Eyes03 M_White_Brows03 M_Black_Nose04 M_Black_Mouth04 M_Black_Hair04 "Empty_Extras Men" ]
+     g 1
+    }
+    last Henderson
+    eth am
+   }
+   metTitle 100
+   metLocation cleveland
+  }
+  { 
+   ident 5
+   xp {  }
+   companyTitle Us
+   person { 
+    traitIds [ trait-procrastinator trait-short-tempered ]
+    s 3
+    g 1
+    first Gerald
+    cIdent 5
+    portrait { 
+     s 3
+     hash 3007303987
+     pieces [ black male Empty_Hair_Back M_Outfit08Alt2 M_Outfit08Skin_Black Empty_Hair_Mid M_Black_Head01 M_Black_Eyes01 M_Test_Eyebrows01 M_Black_Nose06 M_Black_Mustache02 M_Black_Hair01 Empty_Extras ]
+     g 1
+    }
+    last Lucas
+    eth am
+   }
+   metTitle 50
+   metLocation cleveland
+  }
+  { 
+   ident 2
+   xp { current 2249 level { level 2 id training-pro } lastThreshold 2 }
+   companyTitle Us
+   person { 
+    traitIds [ trait-organized trait-loner ]
+    s 1
+    g 2
+    first Jeanne
+    portrait { 
+     s 1
+     hash 2566647701
+     pieces [ female white F_White_Hair06Back F_White_Hair06 F_Outfit02 F_Outfit02Skin_White Empty_Hair_Mid F_White_Head01 F_White_Eyes05 F_White_Brows01 F_White_Nose03 F_White_Mouth01 F_Earrings07 ]
+     g 2
+    }
+    last Manning
+    eth am
+   }
+   metTitle 120
+   metLocation cleveland
+  }
+  { 
+   ident 3
+   xp { current 104 level { level 1 id lab-boss } lastThreshold 1 }
+   companyTitle Us
+   person { 
+    traitIds [ trait-confident trait-calm ]
+    s 3
+    g 2
+    first Elaine
+    portrait { 
+     s 3
+     hash 3400266847
+     pieces [ female black F_Black_Hair03Mid Empty_Hair_Back F_Outfit05Alt F_Outfit05Skin_Black F_Black_Hair03 F_Black_Head03 F_Asian_Eyes05 F_Black_Brows01 F_Black_Nose04 F_Black_Mouth01 F_Earrings05Alt ]
+     g 2
+    }
+    last Gillman
+    eth am
+   }
+   metTitle 130
+   metLocation cleveland
+  }
+ ]
+ cashReserves 2147000
+ colorrow 96
+ complogo Z
+ strategiesKnown [ logistics-expertise regional-connections ]
+ rng 3519577620
+ researchReserves 390
+}

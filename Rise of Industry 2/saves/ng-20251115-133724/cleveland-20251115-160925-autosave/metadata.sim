@@ -1,0 +1,15 @@
+{ 
+ bizName "台灣糧食公司"
+ slotId cleveland-20251115-160925-autosave
+ autosave #true
+ mapId cleveland
+ mapName "俄亥俄州克利夫兰"
+ rngseed 1427370784
+ playerName "Tim Ng"
+ saveTime "2025-11-15T08:09:25.0325299Z"
+ gameTime "1980-07-31T00:01:04.0000000Z"
+ money 21474836
+ displayName "Tim Ng - 俄亥俄州克利夫兰"
+ campaignId ng-20251115-133724
+ gameVersion 1000008
+}
