@@ -1,6 +1,5 @@
 { 
- reserveCash 2147000
- employees 4
+ employees 5
  breakingSaveVersion 1
  gameVersion 1000008
  companyName "台灣重工業公司"
@@ -8,6 +7,5 @@
  companyLogoFileId Z
  campaignId ng-20251115-133724
  rngseed 1
- saveTime "2025-11-15T18:21:21.2714561Z"
- reserveRP 390
+ saveTime "2026-01-02T15:54:40.1495243Z"
 }

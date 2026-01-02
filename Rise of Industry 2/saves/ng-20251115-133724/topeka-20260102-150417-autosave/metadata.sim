@@ -1,0 +1,15 @@
+{ 
+ bizName "台灣重工業公司"
+ slotId topeka-20260102-150417-autosave
+ autosave #true
+ mapId topeka
+ mapName "堪萨斯州托皮卡"
+ rngseed 9641143
+ playerName "Tim Ng"
+ saveTime "2026-01-02T07:04:17.1024306Z"
+ gameTime "1983-10-18T00:01:49.0000000Z"
+ money 276677
+ displayName "Tim Ng - 堪萨斯州托皮卡"
+ campaignId ng-20251115-133724
+ gameVersion 1000008
+}

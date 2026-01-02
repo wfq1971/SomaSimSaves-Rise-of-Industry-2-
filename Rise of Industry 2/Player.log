@@ -1,7 +1,7 @@
 Mono path[0] = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/Managed'
 Mono config path = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/MonoBleedingEdge/etc'
-Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000018811161F60.dll
-Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000018816482040.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-000001DF05034D00.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-000001DF0A37B040.dll
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 Initialize engine version: 2022.3.52f1 (1120fcb54228)
 [Subsystems] Discovering subsystems at path S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/UnitySubsystems
@@ -13,8 +13,8 @@ Direct3D:
     VRAM:     2965 MB
     Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.367 seconds
-- Finished resetting the current domain, in  0.002 seconds
+- Loaded All Assemblies, in  2.007 seconds
+- Finished resetting the current domain, in  0.001 seconds
 [Message:   BepInEx] BepInEx 5.4.21.0 - ROI2 (2025/11/7 上午 01:30:09)
 [Info   :   BepInEx] Running under Unity v2022.3.52.1122556
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -55,7 +55,7 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 [Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
 [Debug  :XUnity.AutoTranslator] Loaded resize command text files.
 [Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.07 seconds)
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.31 seconds)
 [Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
 [Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
 [Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2022.3.52f1] game.
@@ -67,10 +67,26 @@ Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-UnloadTime: 0.935000 ms
+UnloadTime: 0.945300 ms
 InControl (version 1.8.8 build 9375)
 STARTING GAME
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 BUILD 1.0.8  - PLATFORM  DesktopPlatform
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
+PLATFORM LAUNCH INTENT: Default
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
+Save settings.txt success!
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
+Save gameplay.txt success!
+Steam initialized for Birmingham Night Skyline
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Found entities: 957 entries
+Found models: 0
+Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
+Found ui
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Attached native device with handle 1:
 Name: OrayVHID
 Driver Type: DirectInput
@@ -81,32 +97,12 @@ Product ID: 0x6f72
 Version Number: 0x0
 Buttons: 16
 Analogs: 8
-[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
-PLATFORM LAUNCH INTENT: Default
-Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
-Save gameplay.txt success!
-Steam initialized for Birmingham Night Skyline
-Found entities: 957 entries
-Found models: 0
-Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
-Found ui
 Graphics model: Direct3D11, shader model 50, 2965 vram; 
 Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
 Device: Direct3D 11.0 [level 11.1]; 7170 NVIDIA GeForce GTX 1060 3GB; 4318 NVIDIA; 
 Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
 Installed dlcs: 
 Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
-[Info   :XUnity.AutoTranslator] Set translator endpoint to 'DeepLTranslateLegitimate'.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
 Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
 Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
   at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
@@ -115,246 +111,129 @@ Serialization error: Failed to deserialize primitive, desired type = System.Int3
   at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
   at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
 Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 the PS5 callback is being triggered
-Unloading 10 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 1082888.
-Total: 485.732500 ms (FindLiveObjects: 138.206000 ms CreateObjectMapping: 13.928200 ms MarkObjects: 325.768400 ms  DeleteObjects: 7.829400 ms)
+Unloading 12 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 329 unused Assets to reduce memory usage. Loaded Objects now: 853626.
+Total: 712.213000 ms (FindLiveObjects: 103.978000 ms CreateObjectMapping: 12.367800 ms MarkObjects: 591.512600 ms  DeleteObjects: 4.354300 ms)
 
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 39566 unused Assets to reduce memory usage. Loaded Objects now: 1920331.
-Total: 818.568300 ms (FindLiveObjects: 310.678500 ms CreateObjectMapping: 35.701000 ms MarkObjects: 448.038700 ms  DeleteObjects: 24.149600 ms)
+Unloading 41804 unused Assets to reduce memory usage. Loaded Objects now: 2786140.
+Total: 1373.606900 ms (FindLiveObjects: 453.715400 ms CreateObjectMapping: 35.589500 ms MarkObjects: 854.480400 ms  DeleteObjects: 29.821200 ms)
 
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Info   :XUnity.AutoTranslator] Toggling translations of 1707 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 1707 objects.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
-[Info   :XUnity.AutoTranslator] Toggling translations of 2016 objects.
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
-[Info   :XUnity.AutoTranslator] Toggling translations of 2016 objects.
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-170436-autosave
-Failed to start choice point vp-new-job? No npc found
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-185424-autosave
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-170749-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-185727-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-171030-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-190127-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-171309-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-190451-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-171554-autosave
-[Info   :XUnity.AutoTranslator] Toggling translations of 2736 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 2736 objects.
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-213143-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-173156-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-213558-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-173511-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-214101-autosave
+NullReferenceException: Object reference not set to an instance of an object
+  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
+  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
+InControl.InControlInputModule:ProcessMouseEvent(Int32)
+InControl.InControlInputModule:ProcessMouseEvent()
+InControl.InControlInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-173838-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CityInfoController.FindTotalHousingInCampus () [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshCityDesc () [0x000bb] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.RefreshContents () [0x0001a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CityInfoDialog.OnCompanyFinancesChanged (Game.Session.SessionEvent sev) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].Dispatch (TEvent ev) [0x00036] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Services.EventBus`2[TEventTypeEnum,TEvent].ProcessQueue () [0x0000e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionEventBus.UpdateAnimations (Game.Core.GameAnimUpdate anim) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x00166] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-214500-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-214815-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-215350-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-215929-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-220303-autosave
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-220633-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-220948-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-221311-autosave
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-221712-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-222043-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-222436-autosave
 [Error  :XUnity.AutoTranslator] Error occurred while retrieving translation. An error occurred in the pipeline.
-System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 基礎連接已關閉: 應該保持運作的連接卻被伺服器關閉。
-   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 基礎連接已關閉: 傳送時發生未預期的錯誤。 ---> System.IO.IOException: 驗證失敗，因為遠端群體已經關閉傳輸資料流。
+   於 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   於 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
    --- 內部例外狀況堆疊追蹤的結尾 ---
    於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
@@ -362,1527 +241,105 @@ System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System
 --- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
    於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    於 Http.ExtProtocol.Executor.ExtProtocolHandler.<RunAsync>d__4.MoveNext()
-[Error  :XUnity.AutoTranslator] Failed: '你收到来自Erie Steel Works的Wallace Thomas发来的消息：“我听说你的交付进度落后了。这会成为问题吗？我不想援引我们合同中的违约条款。请给我打电话。”'
+[Error  :XUnity.AutoTranslator] Failed: '，每17天一次（平均每天6.41板条箱）。
+
+你想派Charlie Henderson去谈判吗？'
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-174232-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-222837-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-174801-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-223240-autosave
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-175148-autosave
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has started!
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 29439 unused Assets to reduce memory usage. Loaded Objects now: 448487.
-Total: 396.643600 ms (FindLiveObjects: 85.363000 ms CreateObjectMapping: 15.810800 ms MarkObjects: 221.263800 ms  DeleteObjects: 74.205500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-the PS5 callback is being triggered
-Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 172088.
-Total: 602.667600 ms (FindLiveObjects: 25.820900 ms CreateObjectMapping: 2.440800 ms MarkObjects: 572.914800 ms  DeleteObjects: 1.490800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 172042.
-Total: 597.797600 ms (FindLiveObjects: 22.965100 ms CreateObjectMapping: 4.890700 ms MarkObjects: 569.427800 ms  DeleteObjects: 0.513600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 172039.
-Total: 552.281500 ms (FindLiveObjects: 21.598100 ms CreateObjectMapping: 2.733300 ms MarkObjects: 527.633900 ms  DeleteObjects: 0.316000 ms)
-
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 1147906.
-Total: 649.831700 ms (FindLiveObjects: 222.216200 ms CreateObjectMapping: 19.171600 ms MarkObjects: 402.116000 ms  DeleteObjects: 6.327100 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 35153 unused Assets to reduce memory usage. Loaded Objects now: 1986537.
-Total: 1004.179700 ms (FindLiveObjects: 436.861200 ms CreateObjectMapping: 38.054500 ms MarkObjects: 505.422700 ms  DeleteObjects: 23.840700 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has started!
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.EntityIDExtensions.FindEntity (Game.Core.EntityID id) [0x0000b] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.ModelComponent+ConstructionUpdaterComponent.Update () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 7345 unused Assets to reduce memory usage. Loaded Objects now: 445577.
-Total: 255.309400 ms (FindLiveObjects: 60.935800 ms CreateObjectMapping: 4.667200 ms MarkObjects: 167.437500 ms  DeleteObjects: 22.268600 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-the PS5 callback is being triggered
-Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 168922.
-Total: 578.309300 ms (FindLiveObjects: 19.971400 ms CreateObjectMapping: 2.474400 ms MarkObjects: 554.974800 ms  DeleteObjects: 0.888400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 168876.
-Total: 590.560500 ms (FindLiveObjects: 23.834100 ms CreateObjectMapping: 2.899600 ms MarkObjects: 563.194100 ms  DeleteObjects: 0.632200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 168873.
-Total: 561.876200 ms (FindLiveObjects: 19.751600 ms CreateObjectMapping: 2.269100 ms MarkObjects: 539.532100 ms  DeleteObjects: 0.323100 ms)
-
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1144740.
-Total: 838.675400 ms (FindLiveObjects: 231.528800 ms CreateObjectMapping: 14.253800 ms MarkObjects: 585.829500 ms  DeleteObjects: 7.062500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 33159 unused Assets to reduce memory usage. Loaded Objects now: 1995595.
-Total: 894.205500 ms (FindLiveObjects: 369.301100 ms CreateObjectMapping: 31.258200 ms MarkObjects: 468.786900 ms  DeleteObjects: 24.858900 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has started!
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 12122 unused Assets to reduce memory usage. Loaded Objects now: 445452.
-Total: 243.582000 ms (FindLiveObjects: 58.350800 ms CreateObjectMapping: 5.069600 ms MarkObjects: 152.751600 ms  DeleteObjects: 27.409500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-the PS5 callback is being triggered
-Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 168749.
-Total: 531.032200 ms (FindLiveObjects: 19.922100 ms CreateObjectMapping: 2.257600 ms MarkObjects: 507.719500 ms  DeleteObjects: 1.132700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 168703.
-Total: 565.865800 ms (FindLiveObjects: 22.277300 ms CreateObjectMapping: 2.032600 ms MarkObjects: 541.133500 ms  DeleteObjects: 0.421900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 168700.
-Total: 553.879500 ms (FindLiveObjects: 18.285200 ms CreateObjectMapping: 2.631900 ms MarkObjects: 532.628300 ms  DeleteObjects: 0.333700 ms)
-
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 1144567.
-Total: 483.986800 ms (FindLiveObjects: 142.460900 ms CreateObjectMapping: 13.645000 ms MarkObjects: 322.784900 ms  DeleteObjects: 5.095500 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 33066 unused Assets to reduce memory usage. Loaded Objects now: 1993213.
-Total: 1771.326100 ms (FindLiveObjects: 550.882500 ms CreateObjectMapping: 38.856000 ms MarkObjects: 1091.790400 ms  DeleteObjects: 89.796500 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-223605-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-223932-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-224317-autosave
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-224608-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Found a choice point without any selections? Choice point:无可汇报 state: CPState 305
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-224947-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-225327-autosave
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-225633-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-230431-autosave
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-230720-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-231142-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-231520-autosave
 This scenario is completed
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CompaniesDialog.OnCardToggled (UnityEngine.GameObject card, System.Boolean isOn) [0x00010] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CompaniesDialog+<>c__DisplayClass57_0.<InitBizCard>b__0 (System.Boolean isOn) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.EnsureValidState () [0x00029] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.OnEnable () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-Game.UI.Session.BaseHUDDialog:RequestShow(UIService)
-Game.Services.UIService:ShowUIDialog(IUIDialog)
-Game.UI.Session.HUDManager:Show(BaseHUDDialog)
-Game.UI.Session.BaseHUDDialog:Show()
-Game.UI.Session.CompaniesController:ShowForCompany(CompanyID)
-Game.UI.Session.ContractsController:OnCompanyInfoClick(Contract)
-Game.UI.Session.<>c__DisplayClass60_0:<InitializeContract>b__3()
-SomaSim.Util.<>c__DisplayClass68_0:<SetButtonListener>b__0()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-UnityEngine.UI.SomaButton:Press()
-UnityEngine.UI.SomaButton:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-222838-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-231920-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-223413-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.ContactsPopup+<>c__DisplayClass86_0.<InitializeRequest>b__0 (System.Boolean x) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.EnsureValidState () [0x00029] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.OnEnable () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-SomaSim.Util.UIUtil:SetActive(GameObject, String, Boolean)
-Game.UI.Session.ContactsPopup:ActivateStorePanel(Boolean)
-Game.UI.Session.ContactsPopup:RefreshStore()
-Game.UI.Session.ContactsPopup:RefreshContents()
-Game.UI.Session.ContactsPopup:ControllerRequestsRefresh()
-Game.UI.Session.ContactsController:OnStoreClick(Boolean)
-UnityEngine.Events.InvokableCall`1:Invoke(Boolean)
-UnityEngine.Events.UnityEvent`1:Invoke(Boolean)
-UnityEngine.UI.SomaToggle:Set(Boolean, Boolean)
-UnityEngine.UI.SomaToggle:set_isOn(Boolean)
-UnityEngine.UI.SomaToggle:InternalToggle()
-UnityEngine.UI.SomaToggle:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.ContactsPopup+<>c__DisplayClass86_0.<InitializeRequest>b__0 (System.Boolean x) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.NotifyToggleOn (UnityEngine.UI.SomaToggle toggle, System.Boolean sendCallback) [0x0002e] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.SetToggleGroup (UnityEngine.UI.SomaToggleGroup newGroup, System.Boolean setMemberValue) [0x00055] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.OnEnable () [0x00006] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-SomaSim.Util.UIUtil:SetActive(GameObject, String, Boolean)
-Game.UI.Session.ContactsPopup:ActivateStorePanel(Boolean)
-Game.UI.Session.ContactsPopup:RefreshStore()
-Game.UI.Session.ContactsPopup:RefreshContents()
-Game.UI.Session.ContactsPopup:ControllerRequestsRefresh()
-Game.UI.Session.ContactsController:OnStoreClick(Boolean)
-UnityEngine.Events.InvokableCall`1:Invoke(Boolean)
-UnityEngine.Events.UnityEvent`1:Invoke(Boolean)
-UnityEngine.UI.SomaToggle:Set(Boolean, Boolean)
-UnityEngine.UI.SomaToggle:set_isOn(Boolean)
-UnityEngine.UI.SomaToggle:InternalToggle()
-UnityEngine.UI.SomaToggle:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-232244-autosave
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-224358-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-232547-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-225508-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.ContactsPopup+<>c__DisplayClass86_0.<InitializeRequest>b__0 (System.Boolean x) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.EnsureValidState () [0x00029] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.OnEnable () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-SomaSim.Util.UIUtil:SetActive(GameObject, String, Boolean)
-Game.UI.Session.ContactsPopup:ActivateStorePanel(Boolean)
-Game.UI.Session.ContactsPopup:RefreshStore()
-Game.UI.Session.ContactsPopup:RefreshContents()
-Game.UI.Session.ContactsPopup:ControllerRequestsRefresh()
-Game.UI.Session.ContactsController:OnStoreClick(Boolean)
-UnityEngine.Events.InvokableCall`1:Invoke(Boolean)
-UnityEngine.Events.UnityEvent`1:Invoke(Boolean)
-UnityEngine.UI.SomaToggle:Set(Boolean, Boolean)
-UnityEngine.UI.SomaToggle:set_isOn(Boolean)
-UnityEngine.UI.SomaToggle:InternalToggle()
-UnityEngine.UI.SomaToggle:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.ContactsPopup+<>c__DisplayClass86_0.<InitializeRequest>b__0 (System.Boolean x) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.NotifyToggleOn (UnityEngine.UI.SomaToggle toggle, System.Boolean sendCallback) [0x0002e] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.SetToggleGroup (UnityEngine.UI.SomaToggleGroup newGroup, System.Boolean setMemberValue) [0x00055] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.OnEnable () [0x00006] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-SomaSim.Util.UIUtil:SetActive(GameObject, String, Boolean)
-Game.UI.Session.ContactsPopup:ActivateStorePanel(Boolean)
-Game.UI.Session.ContactsPopup:RefreshStore()
-Game.UI.Session.ContactsPopup:RefreshContents()
-Game.UI.Session.ContactsPopup:ControllerRequestsRefresh()
-Game.UI.Session.ContactsController:OnStoreClick(Boolean)
-UnityEngine.Events.InvokableCall`1:Invoke(Boolean)
-UnityEngine.Events.UnityEvent`1:Invoke(Boolean)
-UnityEngine.UI.SomaToggle:Set(Boolean, Boolean)
-UnityEngine.UI.SomaToggle:set_isOn(Boolean)
-UnityEngine.UI.SomaToggle:InternalToggle()
-UnityEngine.UI.SomaToggle:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-232922-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-225921-autosave
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-233306-autosave
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-230947-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-233623-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-231552-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-233937-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-232006-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-234255-autosave
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-232329-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-234546-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-233323-autosave
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-234835-autosave
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-233832-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-234246-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-234600-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-235007-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-235330-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-235637-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.Session.Entities.VesselComponent.<InitializeOfferFromDef>g__GenerateNumResValue|13_0 (Game.Session.Entities.VesselComponent+<>c__DisplayClass13_0& ) [0x00097] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.VesselComponent.InitializeOfferFromDef (Game.Session.Entities.VesselOfferDef def) [0x00030] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.VesselComponent.InitializeRandomOffer () [0x00095] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.VesselComponent.InitializeVesselOnScheduled (Game.Core.ResourceID res, Game.Session.Sim.ContractDirection dir) [0x00052] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.PortComponent.ScheduleNewVessel (Game.Core.ResourceID res, Game.Session.Sim.ContractDirection direction) [0x0007a] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Entities.PortComponent.ScheduleNewRandomVessel () [0x00022] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Data.ScheduleRandomBoat.Apply (Game.Session.Data.Context ctx) [0x00030] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Data.GrantList.ApplyAll (Game.Session.Data.Context ctx, System.Boolean explain) [0x00062] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Choices.RandomEventsManager.TryRunEvent (Game.Services.RandomEventDef def, Game.Session.Choices.RandomEventState state, System.Boolean skipreqs) [0x000f4] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Choices.RandomEventsManager.TickEvent (Game.Services.RandomEventDef def, Game.Core.SimTime now, System.Boolean force) [0x00054] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Choices.RandomEventsManager.TickEvents () [0x00037] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.Choices.RandomEventsManager.OnDailyGameTick () [0x00006] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.FrameUpdateDuringInteractive () [0x000cc] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Session.SessionContext.Update () [0x0001e] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.Game.Update () [0x00029] in <346042da8c0c455db69e268fca86a0e6>:0 
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-000002-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-000330-autosave
-This scenario is completed
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-235124-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 This scenario is completed
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-000850-autosave
-Found a choice point without any selections? Choice point:申诉结果：败诉 state: CPState 275
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-001244-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-001553-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-002220-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-002507-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-002816-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-003140-autosave
-Failed to start choice point vp-new-job? No npc found
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-003420-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.ContactsPopup+<>c__DisplayClass86_0.<InitializeRequest>b__0 (System.Boolean x) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.EnsureValidState () [0x00029] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.OnEnable () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-SomaSim.Util.UIUtil:SetActive(GameObject, String, Boolean)
-Game.UI.Session.ContactsPopup:ActivateStorePanel(Boolean)
-Game.UI.Session.ContactsPopup:RefreshStore()
-Game.UI.Session.ContactsPopup:RefreshContents()
-Game.UI.Session.ContactsPopup:ControllerRequestsRefresh()
-Game.UI.Session.ContactsController:OnStoreClick(Boolean)
-UnityEngine.Events.InvokableCall`1:Invoke(Boolean)
-UnityEngine.Events.UnityEvent`1:Invoke(Boolean)
-UnityEngine.UI.SomaToggle:Set(Boolean, Boolean)
-UnityEngine.UI.SomaToggle:set_isOn(Boolean)
-UnityEngine.UI.SomaToggle:InternalToggle()
-UnityEngine.UI.SomaToggle:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.ContactsPopup+<>c__DisplayClass86_0.<InitializeRequest>b__0 (System.Boolean x) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.NotifyToggleOn (UnityEngine.UI.SomaToggle toggle, System.Boolean sendCallback) [0x0002e] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.SetToggleGroup (UnityEngine.UI.SomaToggleGroup newGroup, System.Boolean setMemberValue) [0x00055] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.OnEnable () [0x00006] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-SomaSim.Util.UIUtil:SetActive(GameObject, String, Boolean)
-Game.UI.Session.ContactsPopup:ActivateStorePanel(Boolean)
-Game.UI.Session.ContactsPopup:RefreshStore()
-Game.UI.Session.ContactsPopup:RefreshContents()
-Game.UI.Session.ContactsPopup:ControllerRequestsRefresh()
-Game.UI.Session.ContactsController:OnStoreClick(Boolean)
-UnityEngine.Events.InvokableCall`1:Invoke(Boolean)
-UnityEngine.Events.UnityEvent`1:Invoke(Boolean)
-UnityEngine.UI.SomaToggle:Set(Boolean, Boolean)
-UnityEngine.UI.SomaToggle:set_isOn(Boolean)
-UnityEngine.UI.SomaToggle:InternalToggle()
-UnityEngine.UI.SomaToggle:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-003828-autosave
-Failed to start choice point vp-new-job? No npc found
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
-Save gameplay.txt success!
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-004140-autosave
-Failed to start choice point vp-new-job? No npc found
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-004421-autosave
-Failed to start choice point vp-new-job? No npc found
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-004718-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-005006-autosave
-[Info   :XUnity.AutoTranslator] Toggling translations of 4197 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4197 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4199 objects.
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-005349
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-235334
+Scene 'Terrain Topeka' unloading has started!
 Scene 'Generic Pools' unloading has started!
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
 Entity manager had entities at shutdown, count = 1
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 74273 unused Assets to reduce memory usage. Loaded Objects now: 464973.
-Total: 8140.153500 ms (FindLiveObjects: 246.208600 ms CreateObjectMapping: 25.224500 ms MarkObjects: 7212.523500 ms  DeleteObjects: 656.196200 ms)
+Scene 'Terrain Topeka' unloading has completed!
+Unloading 86021 unused Assets to reduce memory usage. Loaded Objects now: 699175.
+Total: 4773.739300 ms (FindLiveObjects: 186.396100 ms CreateObjectMapping: 29.446200 ms MarkObjects: 1577.193200 ms  DeleteObjects: 2980.703200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
 Scene 'Generic Pools' unloading has completed!
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 188257.
-Total: 273.745300 ms (FindLiveObjects: 34.703300 ms CreateObjectMapping: 3.624300 ms MarkObjects: 230.442400 ms  DeleteObjects: 4.974500 ms)
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 147734.
+Total: 285.843100 ms (FindLiveObjects: 35.744800 ms CreateObjectMapping: 2.405300 ms MarkObjects: 155.457400 ms  DeleteObjects: 92.234900 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 188257.
-Total: 249.770300 ms (FindLiveObjects: 28.253200 ms CreateObjectMapping: 3.598500 ms MarkObjects: 217.391000 ms  DeleteObjects: 0.527300 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 147734.
+Total: 181.987900 ms (FindLiveObjects: 18.514100 ms CreateObjectMapping: 2.233100 ms MarkObjects: 160.913900 ms  DeleteObjects: 0.326500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 188257.
-Total: 234.063500 ms (FindLiveObjects: 26.866100 ms CreateObjectMapping: 3.307600 ms MarkObjects: 203.372600 ms  DeleteObjects: 0.516900 ms)
-
-[Info   :XUnity.AutoTranslator] Toggling translations of 3351 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3351 objects.
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3642 objects.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Info   :XUnity.AutoTranslator] Toggling translations of 3471 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3471 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3471 objects.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-the PS5 callback is being triggered
-[Info   :XUnity.AutoTranslator] Toggling translations of 3460 objects.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 179 unused Assets to reduce memory usage. Loaded Objects now: 1164128.
-Total: 605.445500 ms (FindLiveObjects: 155.506000 ms CreateObjectMapping: 13.617100 ms MarkObjects: 431.134900 ms  DeleteObjects: 5.186800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 53404 unused Assets to reduce memory usage. Loaded Objects now: 2119179.
-Total: 890.715500 ms (FindLiveObjects: 341.403500 ms CreateObjectMapping: 34.176300 ms MarkObjects: 485.011100 ms  DeleteObjects: 30.124000 ms)
-
-[Info   :XUnity.AutoTranslator] Toggling translations of 3478 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3478 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3665 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3689 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 3689 objects.
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has started!
-Entity manager had entities at shutdown, count = 1
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 2870 unused Assets to reduce memory usage. Loaded Objects now: 484544.
-Total: 285.980400 ms (FindLiveObjects: 66.523700 ms CreateObjectMapping: 4.159600 ms MarkObjects: 197.873300 ms  DeleteObjects: 17.423400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 206804.
-Total: 205.753000 ms (FindLiveObjects: 26.386500 ms CreateObjectMapping: 2.131000 ms MarkObjects: 176.131400 ms  DeleteObjects: 1.103700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 206804.
-Total: 248.459700 ms (FindLiveObjects: 29.038000 ms CreateObjectMapping: 2.869900 ms MarkObjects: 215.885900 ms  DeleteObjects: 0.665500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 206815.
-Total: 240.218700 ms (FindLiveObjects: 30.942100 ms CreateObjectMapping: 3.156000 ms MarkObjects: 205.460200 ms  DeleteObjects: 0.660100 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 147734.
+Total: 172.422700 ms (FindLiveObjects: 18.038600 ms CreateObjectMapping: 2.077100 ms MarkObjects: 151.956800 ms  DeleteObjects: 0.349500 ms)
 
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
-[Info   :XUnity.AutoTranslator] Toggling translations of 4272 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 4272 objects.
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-the PS5 callback is being triggered
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 170 unused Assets to reduce memory usage. Loaded Objects now: 1182654.
-Total: 500.371800 ms (FindLiveObjects: 154.074600 ms CreateObjectMapping: 13.520700 ms MarkObjects: 327.633300 ms  DeleteObjects: 5.142800 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 53395 unused Assets to reduce memory usage. Loaded Objects now: 2138954.
-Total: 953.653100 ms (FindLiveObjects: 362.776100 ms CreateObjectMapping: 42.994800 ms MarkObjects: 517.150600 ms  DeleteObjects: 30.730800 ms)
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-011353-autosave
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-012147-autosave
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Error invoking cp callback ContractCancellationEvent: Exception has been thrown by the target of an invocation.
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at Game.Session.Choices.UICallbacks.InvokeHelper (System.Reflection.MethodInfo method, System.Object first, System.Collections.Generic.List`1[T] allargs) [0x0002d] in <346042da8c0c455db69e268fca86a0e6>:0 
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-012507-autosave
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-014105-autosave
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-014433-autosave
-Found a choice point without any selections? Choice point:无可汇报 state: CPState 336
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-014812-autosave
-Found a pipe claiming to be a pipe overpass but no overpass exists?
-Found a pipe claiming to be a pipe overpass but no overpass exists?
-Found a pipe claiming to be a pipe overpass but no overpass exists?
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-015244-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.CompaniesDialog.OnCardToggled (UnityEngine.GameObject card, System.Boolean isOn) [0x00010] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.CompaniesDialog+<>c__DisplayClass57_0.<InitBizCard>b__0 (System.Boolean isOn) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaToggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggle.set_isOn (System.Boolean value) [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.EnsureValidState () [0x00029] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaToggleGroup.OnEnable () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-UnityEngine.GameObject:SetActive(GameObject, Boolean)
-Game.UI.Session.BaseHUDDialog:RequestShow(UIService)
-Game.Services.UIService:ShowUIDialog(IUIDialog)
-Game.UI.Session.HUDManager:Show(BaseHUDDialog)
-Game.UI.Session.BaseHUDDialog:Show()
-Game.UI.Session.CompaniesDialog:ShowWithFilter(ResourceID)
-Game.UI.Session.ProposeContractPopup:OpenCompaniesDialogWithFilter()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-UnityEngine.UI.SomaButton:Press()
-UnityEngine.UI.SomaButton:OnPointerClick(PointerEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-015634-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-020015-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-020307-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-020634-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-021001-autosave
-Attempting to find a forced Vessel but there are none that fit the criteria? Res RESID:sand direction NpcBuys
-Attempting to schedule a vessel, but found no valid vessel defs? Res RESID:sand, direction NpcBuys.
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-021354-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251116-021727-autosave
-This scenario is completed
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has started!
-Entity manager had entities at shutdown, count = 1
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 36243 unused Assets to reduce memory usage. Loaded Objects now: 487613.
-Total: 444.488200 ms (FindLiveObjects: 77.543300 ms CreateObjectMapping: 10.618300 ms MarkObjects: 244.273800 ms  DeleteObjects: 112.052300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 209873.
-Total: 227.816000 ms (FindLiveObjects: 31.063100 ms CreateObjectMapping: 2.386600 ms MarkObjects: 192.731800 ms  DeleteObjects: 1.634300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 209873.
-Total: 261.873700 ms (FindLiveObjects: 35.120800 ms CreateObjectMapping: 3.131100 ms MarkObjects: 223.207300 ms  DeleteObjects: 0.414000 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 209873.
-Total: 235.711000 ms (FindLiveObjects: 29.430200 ms CreateObjectMapping: 2.806300 ms MarkObjects: 203.034900 ms  DeleteObjects: 0.439200 ms)
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 [Error  :XUnity.AutoTranslator] Error occurred while reading standard output from external process.
 System.Threading.ThreadAbortException: Thread was being aborted.
   at (wrapper managed-to-native) System.IO.MonoIO.Read(intptr,byte[],int,int,System.IO.MonoIOError&)
@@ -1897,11 +354,11 @@ Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1320 frames, [8.0 KB-16.0 KB]: 14021 frames, [16.0 KB-32.0 KB]: 341 frames, [32.0 KB-64.0 KB]: 37 frames, [64.0 KB-128.0 KB]: 208 frames, [128.0 KB-256.0 KB]: 346 frames, [256.0 KB-0.5 MB]: 404048 frames, [0.5 MB-1.0 MB]: 166184 frames, [1.0 MB-2.0 MB]: 120 frames, [2.0 MB-4.0 MB]: 313 frames, [4.0 MB-8.0 MB]: 350 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 621 frames, [8.0 KB-16.0 KB]: 1189 frames, [16.0 KB-32.0 KB]: 29 frames, [32.0 KB-64.0 KB]: 17 frames, [64.0 KB-128.0 KB]: 30 frames, [128.0 KB-256.0 KB]: 61 frames, [256.0 KB-0.5 MB]: 1264 frames, [0.5 MB-1.0 MB]: 211268 frames, [1.0 MB-2.0 MB]: 29120 frames, [2.0 MB-4.0 MB]: 2321 frames, [4.0 MB-8.0 MB]: 460 frames
       Initial Block Size 4.0 MB
-      Current Block Size 8.0 MB
-      Peak Allocated Bytes 8.0 MB
-      Overflow Count 112
+      Current Block Size 7.7 MB
+      Peak Allocated Bytes 7.7 MB
+      Overflow Count 17
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -1910,8 +367,8 @@ Memory Statistics:
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
-      Peak Allocated Bytes 510.8 KB
-      Overflow Count 300
+      Peak Allocated Bytes 510.3 KB
+      Overflow Count 194
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -1924,8 +381,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
-      Current Block Size 476.0 KB
-      Peak Allocated Bytes 254.0 KB
+      Current Block Size 480.0 KB
+      Peak Allocated Bytes 476.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -1965,7 +422,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 2.0 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 7]
       Initial Block Size 32.0 KB
@@ -1975,8 +432,8 @@ Memory Statistics:
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 182.5 KB
-      Overflow Count 6
+      Peak Allocated Bytes 175.6 KB
+      Overflow Count 1
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -1994,14 +451,14 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
-      Current Block Size 484.0 KB
-      Peak Allocated Bytes 259.5 KB
-      Overflow Count 0
+      Current Block Size 508.0 KB
+      Peak Allocated Bytes 504.8 KB
+      Overflow Count 2
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 484.0 KB
-      Peak Allocated Bytes 259.5 KB
-      Overflow Count 0
+      Peak Allocated Bytes 480.9 KB
+      Overflow Count 1
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -2019,8 +476,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_CloudJob.Worker 0]
       Initial Block Size 32.0 KB
-      Current Block Size 44.0 KB
-      Peak Allocated Bytes 19.6 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 14.4 KB
       Overflow Count 0
     [ALLOC_TEMP_HIDInput]
       Initial Block Size 64.0 KB
@@ -2030,7 +487,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 2.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_BatchDeleteObjects]
       Initial Block Size 64.0 KB
@@ -2038,32 +495,32 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 279255
+  Peak main deferred allocation count 390531
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 35804804
-        32B: 18 Subsections = 9216 buckets. Failed count: 10117928
-        48B: 34 Subsections = 11605 buckets. Failed count: 66459067
-        64B: 21 Subsections = 5376 buckets. Failed count: 5399690
-        80B: 86 Subsections = 17612 buckets. Failed count: 2320851
-        96B: 5 Subsections = 853 buckets. Failed count: 30192075
-        112B: 2 Subsections = 292 buckets. Failed count: 2204290
-        128B: 2 Subsections = 256 buckets. Failed count: 5583889
+        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
+        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
+        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
+        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
+        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
+        96B: 5 Subsections = 853 buckets. Failed count: 12724858
+        112B: 2 Subsections = 292 buckets. Failed count: 1186172
+        128B: 2 Subsections = 256 buckets. Failed count: 3210903
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 29 frames, [64.0 MB-128.0 MB]: 3411 frames, [128.0 MB-256.0 MB]: 12622 frames, [256.0 MB-0.50 GB]: 512 frames, [0.50 GB-1.00 GB]: 570714 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 78 frames, [64.0 MB-128.0 MB]: 1000 frames, [128.0 MB-256.0 MB]: 854 frames, [256.0 MB-0.50 GB]: 87 frames, [0.50 GB-1.00 GB]: 302 frames, [1.00 GB-2.00 GB]: 244059 frames
       Requested Block Size 16.0 MB
-      Peak Block count 47
-      Peak Allocated memory 0.94 GB
-      Peak Large allocation bytes 405.3 MB
+      Peak Block count 72
+      Peak Allocated memory 1.61 GB
+      Peak Large allocation bytes 0.77 GB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 1070 frames, [16.0 MB-32.0 MB]: 13839 frames, [32.0 MB-64.0 MB]: 571718 frames, [64.0 MB-128.0 MB]: 609 frames, [128.0 MB-256.0 MB]: 52 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 725 frames, [16.0 MB-32.0 MB]: 928 frames, [32.0 MB-64.0 MB]: 145478 frames, [64.0 MB-128.0 MB]: 99249 frames
       Requested Block Size 16.0 MB
-      Peak Block count 6
-      Peak Allocated memory 153.2 MB
-      Peak Large allocation bytes 113.4 MB
+      Peak Block count 5
+      Peak Allocated memory 103.4 MB
+      Peak Large allocation bytes 85.3 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -2077,91 +534,91 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
   Used Block Count 1
-  Overflow Count (too large) 25
+  Overflow Count (too large) 908
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
   Used Block Count 1
-  Overflow Count (too large) 18
+  Overflow Count (too large) 3
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 4840
+  Peak main deferred allocation count 7846
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 35804804
-        32B: 18 Subsections = 9216 buckets. Failed count: 10117928
-        48B: 34 Subsections = 11605 buckets. Failed count: 66459067
-        64B: 21 Subsections = 5376 buckets. Failed count: 5399690
-        80B: 86 Subsections = 17612 buckets. Failed count: 2320851
-        96B: 5 Subsections = 853 buckets. Failed count: 30192075
-        112B: 2 Subsections = 292 buckets. Failed count: 2204290
-        128B: 2 Subsections = 256 buckets. Failed count: 5583889
+        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
+        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
+        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
+        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
+        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
+        96B: 5 Subsections = 853 buckets. Failed count: 12724858
+        112B: 2 Subsections = 292 buckets. Failed count: 1186172
+        128B: 2 Subsections = 256 buckets. Failed count: 3210903
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 3843 frames, [128.0 MB-256.0 MB]: 11948 frames, [256.0 MB-0.50 GB]: 511782 frames, [0.50 GB-1.00 GB]: 59715 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 1348 frames, [128.0 MB-256.0 MB]: 565 frames, [256.0 MB-0.50 GB]: 149191 frames, [0.50 GB-1.00 GB]: 95276 frames
       Requested Block Size 16.0 MB
-      Peak Block count 23
-      Peak Allocated memory 0.58 GB
-      Peak Large allocation bytes 261.7 MB
+      Peak Block count 28
+      Peak Allocated memory 0.57 GB
+      Peak Large allocation bytes 181.7 MB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 11460 frames, [16.0 MB-32.0 MB]: 3582 frames, [32.0 MB-64.0 MB]: 33 frames, [64.0 MB-128.0 MB]: 61 frames, [128.0 MB-256.0 MB]: 572148 frames
+      Peak usage frame count: [8.0 KB-16.0 KB]: 3 frames, [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 850 frames, [16.0 MB-32.0 MB]: 782 frames, [32.0 MB-64.0 MB]: 59 frames, [64.0 MB-128.0 MB]: 35 frames, [128.0 MB-256.0 MB]: 244650 frames
       Requested Block Size 16.0 MB
       Peak Block count 5
-      Peak Allocated memory 225.3 MB
+      Peak Allocated memory 218.7 MB
       Peak Large allocation bytes 154.7 MB
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 88901
+  Peak main deferred allocation count 69508
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 35804804
-        32B: 18 Subsections = 9216 buckets. Failed count: 10117928
-        48B: 34 Subsections = 11605 buckets. Failed count: 66459067
-        64B: 21 Subsections = 5376 buckets. Failed count: 5399690
-        80B: 86 Subsections = 17612 buckets. Failed count: 2320851
-        96B: 5 Subsections = 853 buckets. Failed count: 30192075
-        112B: 2 Subsections = 292 buckets. Failed count: 2204290
-        128B: 2 Subsections = 256 buckets. Failed count: 5583889
+        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
+        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
+        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
+        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
+        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
+        96B: 5 Subsections = 853 buckets. Failed count: 12724858
+        112B: 2 Subsections = 292 buckets. Failed count: 1186172
+        128B: 2 Subsections = 256 buckets. Failed count: 3210903
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 15887 frames, [256.0 MB-0.50 GB]: 571401 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 1913 frames, [256.0 MB-0.50 GB]: 244467 frames
       Requested Block Size 4.0 MB
-      Peak Block count 36
-      Peak Allocated memory 303.4 MB
-      Peak Large allocation bytes 174.7 MB
+      Peak Block count 35
+      Peak Allocated memory 288.7 MB
+      Peak Large allocation bytes 163.8 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [0.5 MB-1.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 9 frames, [16.0 MB-32.0 MB]: 11387 frames, [32.0 MB-64.0 MB]: 3696 frames, [64.0 MB-128.0 MB]: 223 frames, [128.0 MB-256.0 MB]: 193 frames, [256.0 MB-0.50 GB]: 571741 frames, [0.50 GB-1.00 GB]: 35 frames
+      Peak usage frame count: [0.5 MB-1.0 MB]: 3 frames, [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 38 frames, [16.0 MB-32.0 MB]: 814 frames, [32.0 MB-64.0 MB]: 912 frames, [64.0 MB-128.0 MB]: 47 frames, [128.0 MB-256.0 MB]: 244559 frames, [0.50 GB-1.00 GB]: 6 frames
       Requested Block Size 4.0 MB
-      Peak Block count 88
-      Peak Allocated memory 0.62 GB
-      Peak Large allocation bytes 348.5 MB
+      Peak Block count 71
+      Peak Allocated memory 0.55 GB
+      Peak Large allocation bytes 330.1 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 1
+  Peak main deferred allocation count 2
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 35804804
-        32B: 18 Subsections = 9216 buckets. Failed count: 10117928
-        48B: 34 Subsections = 11605 buckets. Failed count: 66459067
-        64B: 21 Subsections = 5376 buckets. Failed count: 5399690
-        80B: 86 Subsections = 17612 buckets. Failed count: 2320851
-        96B: 5 Subsections = 853 buckets. Failed count: 30192075
-        112B: 2 Subsections = 292 buckets. Failed count: 2204290
-        128B: 2 Subsections = 256 buckets. Failed count: 5583889
+        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
+        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
+        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
+        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
+        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
+        96B: 5 Subsections = 853 buckets. Failed count: 12724858
+        112B: 2 Subsections = 292 buckets. Failed count: 1186172
+        128B: 2 Subsections = 256 buckets. Failed count: 3210903
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 587288 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 246380 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 306.3 KB
+      Peak Allocated memory 321.8 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [16.0 KB-32.0 KB]: 3389 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 583898 frames
+      Peak usage frame count: [16.0 KB-32.0 KB]: 1009 frames, [32.0 KB-64.0 KB]: 245370 frames, [64.0 KB-128.0 KB]: 1 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 79.7 KB
+      Peak Allocated memory 64.8 KB
       Peak Large allocation bytes 0 B

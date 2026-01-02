@@ -1,0 +1,15 @@
+{ 
+ bizName "台灣重工業公司"
+ slotId milwaukee-20251124-113348-autosave
+ autosave #true
+ mapId milwaukee
+ mapName "威斯康星州密尔沃基"
+ rngseed 2659252473
+ playerName "Tim Ng"
+ saveTime "2025-11-24T03:33:48.7588700Z"
+ gameTime "1983-05-05T00:04:42.0000000Z"
+ money 17199462
+ displayName "Tim Ng - 威斯康星州密尔沃基"
+ campaignId ng-20251115-133724
+ gameVersion 1000008
+}

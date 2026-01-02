@@ -1,0 +1,15 @@
+{ 
+ bizName "台灣重工業公司"
+ slotId midland-20260102-125228-autosave
+ autosave #true
+ mapId midland
+ mapName "德克萨斯州米德兰"
+ rngseed 710859501
+ playerName "Tim Ng"
+ saveTime "2026-01-02T04:52:28.1910613Z"
+ gameTime "1985-08-08T00:03:56.0000000Z"
+ money 2061160
+ displayName "Tim Ng - 德克萨斯州米德兰"
+ campaignId ng-20251115-133724
+ gameVersion 1000008
+}

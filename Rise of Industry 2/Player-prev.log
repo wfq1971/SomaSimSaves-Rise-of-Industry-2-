@@ -1,7 +1,7 @@
 Mono path[0] = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/Managed'
 Mono config path = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/MonoBleedingEdge/etc'
-Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000029D1F9C8070.dll
-Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000029D24E63040.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-00000276146D70A0.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000027619B2A040.dll
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
 Initialize engine version: 2022.3.52f1 (1120fcb54228)
 [Subsystems] Discovering subsystems at path S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/UnitySubsystems
@@ -13,8 +13,8 @@ Direct3D:
     VRAM:     2965 MB
     Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.596 seconds
-- Finished resetting the current domain, in  0.002 seconds
+- Loaded All Assemblies, in  0.366 seconds
+- Finished resetting the current domain, in  0.001 seconds
 [Message:   BepInEx] BepInEx 5.4.21.0 - ROI2 (2025/11/7 上午 01:30:09)
 [Info   :   BepInEx] Running under Unity v2022.3.52.1122556
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -55,7 +55,7 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 [Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
 [Debug  :XUnity.AutoTranslator] Loaded resize command text files.
 [Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.03 seconds)
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.04 seconds)
 [Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
 [Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
 [Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2022.3.52f1] game.
@@ -67,22 +67,14 @@ Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-UnloadTime: 0.889500 ms
+UnloadTime: 0.788000 ms
 InControl (version 1.8.8 build 9375)
 STARTING GAME
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 BUILD 1.0.8  - PLATFORM  DesktopPlatform
-Attached native device with handle 1:
-Name: OrayVHID
-Driver Type: DirectInput
-Location ID: \\?\hid#hidclass&col05#1&2d595ca7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
-Serial Number: 123456789
-Vendor ID: 0xff
-Product ID: 0x6f72
-Version Number: 0x0
-Buttons: 16
-Analogs: 8
 [Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
 PLATFORM LAUNCH INTENT: Default
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
 Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
 Save settings.txt success!
@@ -93,11 +85,23 @@ Found entities: 957 entries
 Found models: 0
 Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
 Found ui
+Attached native device with handle 1:
+Name: OrayVHID
+Driver Type: DirectInput
+Location ID: \\?\hid#hidclass&col05#1&2d595ca7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+Serial Number: 123456789
+Vendor ID: 0xff
+Product ID: 0x6f72
+Version Number: 0x0
+Buttons: 16
+Analogs: 8
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Graphics model: Direct3D11, shader model 50, 2965 vram; 
 Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
 Device: Direct3D 11.0 [level 11.1]; 7170 NVIDIA GeForce GTX 1060 3GB; 4318 NVIDIA; 
 Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
 Installed dlcs: 
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
 Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
 Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
@@ -108,15 +112,17 @@ Serialization error: Failed to deserialize primitive, desired type = System.Int3
   at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
 Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
 the PS5 callback is being triggered
-Unloading 10 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 1082851.
-Total: 530.439500 ms (FindLiveObjects: 156.661100 ms CreateObjectMapping: 14.977900 ms MarkObjects: 354.607800 ms  DeleteObjects: 4.192400 ms)
+Unloading 12 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 316 unused Assets to reduce memory usage. Loaded Objects now: 853599.
+Total: 732.145100 ms (FindLiveObjects: 109.371500 ms CreateObjectMapping: 13.596100 ms MarkObjects: 605.052000 ms  DeleteObjects: 4.124900 ms)
 
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 33293 unused Assets to reduce memory usage. Loaded Objects now: 1896449.
-Total: 866.499300 ms (FindLiveObjects: 341.901200 ms CreateObjectMapping: 35.237500 ms MarkObjects: 465.441400 ms  DeleteObjects: 23.918600 ms)
+Unloading 36468 unused Assets to reduce memory usage. Loaded Objects now: 2735538.
+Total: 1363.016100 ms (FindLiveObjects: 468.030800 ms CreateObjectMapping: 38.392500 ms MarkObjects: 830.502500 ms  DeleteObjects: 26.089900 ms)
 
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
 Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
   at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
@@ -125,216 +131,83 @@ Serialization error: Failed to deserialize primitive, desired type = System.Int3
   at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
   at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
 Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Scene 'Terrain Cleveland' unloading has started!
+Scene 'Terrain Topeka' unloading has started!
 Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
 Scene 'Generic Pools' unloading has started!
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 2280 unused Assets to reduce memory usage. Loaded Objects now: 388053.
-Total: 181.859300 ms (FindLiveObjects: 58.592800 ms CreateObjectMapping: 9.731500 ms MarkObjects: 99.732100 ms  DeleteObjects: 13.802500 ms)
+Entity manager had entities at shutdown, count = 1
+Scene 'Terrain Topeka' unloading has completed!
+Unloading 5015 unused Assets to reduce memory usage. Loaded Objects now: 662920.
+Total: 226.216600 ms (FindLiveObjects: 83.947900 ms CreateObjectMapping: 13.353400 ms MarkObjects: 118.032600 ms  DeleteObjects: 10.882400 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
 Scene 'Generic Pools' unloading has completed!
-Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 110701.
-Total: 129.864000 ms (FindLiveObjects: 13.425700 ms CreateObjectMapping: 2.067000 ms MarkObjects: 113.577000 ms  DeleteObjects: 0.793900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 110701.
-Total: 115.270900 ms (FindLiveObjects: 12.396600 ms CreateObjectMapping: 1.846000 ms MarkObjects: 100.842000 ms  DeleteObjects: 0.185600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 110701.
-Total: 143.824400 ms (FindLiveObjects: 14.683400 ms CreateObjectMapping: 1.488200 ms MarkObjects: 127.390700 ms  DeleteObjects: 0.261600 ms)
-
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-[Info   :XUnity.AutoTranslator] Toggling translations of 439 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 439 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 439 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 439 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 439 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 439 objects.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
 the PS5 callback is being triggered
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 1086565.
-Total: 492.803600 ms (FindLiveObjects: 140.975500 ms CreateObjectMapping: 13.489900 ms MarkObjects: 331.897500 ms  DeleteObjects: 6.440100 ms)
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 109794.
+Total: 920.164400 ms (FindLiveObjects: 11.824700 ms CreateObjectMapping: 1.885700 ms MarkObjects: 905.678600 ms  DeleteObjects: 0.774800 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 33292 unused Assets to reduce memory usage. Loaded Objects now: 1900018.
-Total: 894.946900 ms (FindLiveObjects: 347.647600 ms CreateObjectMapping: 39.991200 ms MarkObjects: 480.422900 ms  DeleteObjects: 26.884700 ms)
-
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-162421
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Terrain Cleveland' unloading has started!
-Scene 'Generic Pools' unloading has started!
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 2281 unused Assets to reduce memory usage. Loaded Objects now: 388148.
-Total: 186.901600 ms (FindLiveObjects: 57.932200 ms CreateObjectMapping: 4.323800 ms MarkObjects: 106.195900 ms  DeleteObjects: 18.449400 ms)
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 109748.
+Total: 872.147800 ms (FindLiveObjects: 12.671600 ms CreateObjectMapping: 2.088400 ms MarkObjects: 856.935400 ms  DeleteObjects: 0.451900 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 110796.
-Total: 131.241000 ms (FindLiveObjects: 12.781900 ms CreateObjectMapping: 1.866600 ms MarkObjects: 115.748500 ms  DeleteObjects: 0.843700 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 109745.
+Total: 912.601400 ms (FindLiveObjects: 11.169700 ms CreateObjectMapping: 1.437800 ms MarkObjects: 899.763500 ms  DeleteObjects: 0.230000 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 110796.
-Total: 129.777400 ms (FindLiveObjects: 14.395600 ms CreateObjectMapping: 3.785700 ms MarkObjects: 111.283300 ms  DeleteObjects: 0.312300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 110796.
-Total: 133.025900 ms (FindLiveObjects: 14.035100 ms CreateObjectMapping: 1.941000 ms MarkObjects: 116.782300 ms  DeleteObjects: 0.267000 ms)
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\huang-20251115-162545
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\huang-20251115-162545
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-the PS5 callback is being triggered
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 182 unused Assets to reduce memory usage. Loaded Objects now: 1087370.
-Total: 486.987300 ms (FindLiveObjects: 138.304200 ms CreateObjectMapping: 13.512400 ms MarkObjects: 330.658200 ms  DeleteObjects: 4.512200 ms)
+Unloading 8 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 855495.
+Total: 748.420000 ms (FindLiveObjects: 105.396500 ms CreateObjectMapping: 12.617800 ms MarkObjects: 625.823900 ms  DeleteObjects: 4.581100 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 36511 unused Assets to reduce memory usage. Loaded Objects now: 1909728.
-Total: 933.451600 ms (FindLiveObjects: 367.834000 ms CreateObjectMapping: 36.508600 ms MarkObjects: 492.780700 ms  DeleteObjects: 36.327700 ms)
+Unloading 36469 unused Assets to reduce memory usage. Loaded Objects now: 2737325.
+Total: 1396.988400 ms (FindLiveObjects: 474.176100 ms CreateObjectMapping: 38.192100 ms MarkObjects: 859.380800 ms  DeleteObjects: 25.238800 ms)
 
-[Info   :XUnity.AutoTranslator] Toggling translations of 467 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 467 objects.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-[Info   :XUnity.AutoTranslator] Toggling translations of 1330 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 1334 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 1334 objects.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Info   :XUnity.AutoTranslator] Rebooted Auto Translator.
-[Info   :XUnity.AutoTranslator] Toggling translations of 1320 objects.
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Pruning text translations in main translation file...
-[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
-[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.01 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
-[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
-[Info   :XUnity.AutoTranslator] Toggling translations of 1392 objects.
-[Info   :XUnity.AutoTranslator] Toggling translations of 1392 objects.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-164015
-Scene 'Terrain Cleveland' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has started!
-Scene 'Terrain Cleveland' unloading has completed!
-Unloading 7669 unused Assets to reduce memory usage. Loaded Objects now: 401794.
-Total: 193.580200 ms (FindLiveObjects: 55.717800 ms CreateObjectMapping: 4.709700 ms MarkObjects: 109.330700 ms  DeleteObjects: 23.821700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 124923.
-Total: 116.263200 ms (FindLiveObjects: 13.905100 ms CreateObjectMapping: 2.144600 ms MarkObjects: 99.411300 ms  DeleteObjects: 0.801800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 124934.
-Total: 120.145500 ms (FindLiveObjects: 16.146100 ms CreateObjectMapping: 2.021100 ms MarkObjects: 101.632400 ms  DeleteObjects: 0.345200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 124934.
-Total: 131.268400 ms (FindLiveObjects: 15.730000 ms CreateObjectMapping: 2.244200 ms MarkObjects: 112.915200 ms  DeleteObjects: 0.378600 ms)
-
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-182353-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-182836-autosave
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-183203-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
+Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-183501-autosave
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+NullReferenceException: Object reference not set to an instance of an object
+  at Game.Session.Entities.EntityManager.OnComponentSave (Game.Session.Entities.Entity e, System.Boolean before) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Session.Entities.EntityManager.SerializeHandle (Game.Session.Entities.EntityManager+Handle h, SomaSim.SimLang.Serializer s) [0x0004f] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Session.Entities.EntityManager+HandleBatching.Serialize (Game.Session.Entities.EntityManager+Handle entry, SomaSim.SimLang.Serializer s) [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Services.ParallelBatchingSave+JobCollection`2+SaveJob[K,T].DoWork (Game.Services.ParallelBatchingSave+JobCollection`2[K,T] mgr) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Services.ParallelBatchingSave+JobCollection`2+<RunAllJobs>d__10[K,T].MoveNext () [0x0004c] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Session.Entities.EntityManager+<Save>d__56.MoveNext () [0x00074] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Services.SaveLoadUtils+SaveTaskData+<DoWork>d__2.MoveNext () [0x0006f] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Services.SaveLoadUtils+<SaveMembersByNameInParallel>d__8.MoveNext () [0x000b6] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at Game.Session.SessionContext+<SerializeGameState>d__83.MoveNext () [0x000ad] in <346042da8c0c455db69e268fca86a0e6>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <be2cce08ca774b9684099a81093ecac0>:0 
+
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+[Error  :XUnity.AutoTranslator] Error occurred while reading standard output from external process.
+System.Threading.ThreadAbortException: Thread was being aborted.
+  at (wrapper managed-to-native) System.IO.MonoIO.Read(intptr,byte[],int,int,System.IO.MonoIOError&)
+  at System.IO.MonoIO.Read (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, System.IO.MonoIOError& error) [0x00010] in <1fd52158108c4fe3a6817b50854eb75e>:0 
+  at System.IO.FileStream.ReadData (System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count) [0x00002] in <1fd52158108c4fe3a6817b50854eb75e>:0 
+  at System.IO.FileStream.ReadInternal (System.Byte[] dest, System.Int32 offset, System.Int32 count) [0x00026] in <1fd52158108c4fe3a6817b50854eb75e>:0 
+  at System.IO.FileStream.Read (System.Byte[] array, System.Int32 offset, System.Int32 count) [0x000a1] in <1fd52158108c4fe3a6817b50854eb75e>:0 
+  at System.IO.StreamReader.ReadBuffer () [0x000b3] in <1fd52158108c4fe3a6817b50854eb75e>:0 
+  at System.IO.StreamReader.ReadLine () [0x00028] in <1fd52158108c4fe3a6817b50854eb75e>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.ExtProtocol.ExtProtocolEndpoint.ReaderLoop (System.Object state) [0x00140] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1365 frames, [8.0 KB-16.0 KB]: 9610 frames, [16.0 KB-32.0 KB]: 238 frames, [32.0 KB-64.0 KB]: 24 frames, [64.0 KB-128.0 KB]: 112 frames, [128.0 KB-256.0 KB]: 304 frames, [256.0 KB-0.5 MB]: 15158 frames, [0.5 MB-1.0 MB]: 110 frames, [1.0 MB-2.0 MB]: 11 frames, [2.0 MB-4.0 MB]: 33 frames, [4.0 MB-8.0 MB]: 77 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 295 frames, [8.0 KB-16.0 KB]: 265 frames, [16.0 KB-32.0 KB]: 5 frames, [32.0 KB-64.0 KB]: 19 frames, [64.0 KB-128.0 KB]: 34 frames, [128.0 KB-256.0 KB]: 482 frames, [256.0 KB-0.5 MB]: 15942 frames, [0.5 MB-1.0 MB]: 19803 frames, [1.0 MB-2.0 MB]: 142 frames, [2.0 MB-4.0 MB]: 392 frames, [4.0 MB-8.0 MB]: 66 frames
       Initial Block Size 4.0 MB
-      Current Block Size 7.4 MB
-      Peak Allocated Bytes 7.4 MB
-      Overflow Count 44
+      Current Block Size 7.7 MB
+      Peak Allocated Bytes 7.7 MB
+      Overflow Count 23
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -344,7 +217,7 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
       Peak Allocated Bytes 510.8 KB
-      Overflow Count 222
+      Overflow Count 297
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -357,8 +230,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
-      Current Block Size 416.0 KB
-      Peak Allocated Bytes 222.3 KB
+      Current Block Size 456.0 KB
+      Peak Allocated Bytes 454.1 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -393,12 +266,12 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 1]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.0 KB
+      Peak Allocated Bytes 2.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 2.0 KB
+      Peak Allocated Bytes 0.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 7]
       Initial Block Size 32.0 KB
@@ -408,8 +281,8 @@ Memory Statistics:
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 182.5 KB
-      Overflow Count 3
+      Peak Allocated Bytes 175.6 KB
+      Overflow Count 2
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -427,18 +300,18 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
-      Current Block Size 416.0 KB
-      Peak Allocated Bytes 222.3 KB
-      Overflow Count 0
+      Current Block Size 500.0 KB
+      Peak Allocated Bytes 499.2 KB
+      Overflow Count 1
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
-      Current Block Size 416.0 KB
-      Peak Allocated Bytes 222.4 KB
+      Current Block Size 492.0 KB
+      Peak Allocated Bytes 489.7 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 11]
       Initial Block Size 32.0 KB
@@ -453,7 +326,7 @@ Memory Statistics:
     [ALLOC_TEMP_CloudJob.Worker 0]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 5.0 KB
+      Peak Allocated Bytes 14.4 KB
       Overflow Count 0
     [ALLOC_TEMP_HIDInput]
       Initial Block Size 64.0 KB
@@ -463,7 +336,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.6 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_BatchDeleteObjects]
       Initial Block Size 64.0 KB
@@ -471,32 +344,32 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 278769
+  Peak main deferred allocation count 934792
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 6921315
-        32B: 18 Subsections = 9216 buckets. Failed count: 1370413
-        48B: 34 Subsections = 11605 buckets. Failed count: 3649401
-        64B: 21 Subsections = 5376 buckets. Failed count: 1193796
-        80B: 86 Subsections = 17612 buckets. Failed count: 157560
-        96B: 5 Subsections = 853 buckets. Failed count: 1467960
-        112B: 2 Subsections = 292 buckets. Failed count: 43705
-        128B: 2 Subsections = 256 buckets. Failed count: 1665379
+        16B: 88 Subsections = 90112 buckets. Failed count: 8702344
+        32B: 18 Subsections = 9216 buckets. Failed count: 1960584
+        48B: 34 Subsections = 11605 buckets. Failed count: 5613555
+        64B: 21 Subsections = 5376 buckets. Failed count: 1642062
+        80B: 86 Subsections = 17612 buckets. Failed count: 214550
+        96B: 5 Subsections = 853 buckets. Failed count: 1968304
+        112B: 2 Subsections = 292 buckets. Failed count: 226831
+        128B: 2 Subsections = 256 buckets. Failed count: 1880862
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 30 frames, [64.0 MB-128.0 MB]: 11103 frames, [128.0 MB-256.0 MB]: 347 frames, [256.0 MB-0.50 GB]: 249 frames, [0.50 GB-1.00 GB]: 15313 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 29 frames, [64.0 MB-128.0 MB]: 464 frames, [128.0 MB-256.0 MB]: 178 frames, [256.0 MB-0.50 GB]: 170 frames, [0.50 GB-1.00 GB]: 2535 frames, [1.00 GB-2.00 GB]: 34069 frames
       Requested Block Size 16.0 MB
-      Peak Block count 34
-      Peak Allocated memory 0.66 GB
-      Peak Large allocation bytes 283.1 MB
+      Peak Block count 65
+      Peak Allocated memory 1.15 GB
+      Peak Large allocation bytes 400.0 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 2648 frames, [16.0 MB-32.0 MB]: 8292 frames, [32.0 MB-64.0 MB]: 15882 frames, [64.0 MB-128.0 MB]: 187 frames, [128.0 MB-256.0 MB]: 33 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 377 frames, [16.0 MB-32.0 MB]: 24 frames, [32.0 MB-64.0 MB]: 36916 frames, [64.0 MB-128.0 MB]: 102 frames, [128.0 MB-256.0 MB]: 26 frames
       Requested Block Size 16.0 MB
       Peak Block count 5
-      Peak Allocated memory 166.6 MB
-      Peak Large allocation bytes 137.4 MB
+      Peak Allocated memory 152.9 MB
+      Peak Large allocation bytes 113.4 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -510,67 +383,67 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
   Used Block Count 1
-  Overflow Count (too large) 12
+  Overflow Count (too large) 130
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
   Used Block Count 1
-  Overflow Count (too large) 9
+  Overflow Count (too large) 6
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 1797
+  Peak main deferred allocation count 1896
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 6921315
-        32B: 18 Subsections = 9216 buckets. Failed count: 1370413
-        48B: 34 Subsections = 11605 buckets. Failed count: 3649401
-        64B: 21 Subsections = 5376 buckets. Failed count: 1193796
-        80B: 86 Subsections = 17612 buckets. Failed count: 157560
-        96B: 5 Subsections = 853 buckets. Failed count: 1467960
-        112B: 2 Subsections = 292 buckets. Failed count: 43705
-        128B: 2 Subsections = 256 buckets. Failed count: 1665379
+        16B: 88 Subsections = 90112 buckets. Failed count: 8702344
+        32B: 18 Subsections = 9216 buckets. Failed count: 1960584
+        48B: 34 Subsections = 11605 buckets. Failed count: 5613555
+        64B: 21 Subsections = 5376 buckets. Failed count: 1642062
+        80B: 86 Subsections = 17612 buckets. Failed count: 214550
+        96B: 5 Subsections = 853 buckets. Failed count: 1968304
+        112B: 2 Subsections = 292 buckets. Failed count: 226831
+        128B: 2 Subsections = 256 buckets. Failed count: 1880862
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 9031 frames, [128.0 MB-256.0 MB]: 2377 frames, [256.0 MB-0.50 GB]: 15634 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 465 frames, [128.0 MB-256.0 MB]: 172 frames, [256.0 MB-0.50 GB]: 36808 frames
       Requested Block Size 16.0 MB
-      Peak Block count 14
-      Peak Allocated memory 398.3 MB
-      Peak Large allocation bytes 213.7 MB
+      Peak Block count 21
+      Peak Allocated memory 487.3 MB
+      Peak Large allocation bytes 197.7 MB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 6563 frames, [16.0 MB-32.0 MB]: 4377 frames, [32.0 MB-64.0 MB]: 2 frames, [64.0 MB-128.0 MB]: 10 frames, [128.0 MB-256.0 MB]: 16086 frames
+      Peak usage frame count: [8.0 KB-16.0 KB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 21 frames, [16.0 MB-32.0 MB]: 379 frames, [32.0 MB-64.0 MB]: 4 frames, [64.0 MB-128.0 MB]: 4 frames, [128.0 MB-256.0 MB]: 37033 frames
       Requested Block Size 16.0 MB
       Peak Block count 5
-      Peak Allocated memory 225.2 MB
+      Peak Allocated memory 218.7 MB
       Peak Large allocation bytes 154.7 MB
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 60901
+  Peak main deferred allocation count 60423
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 6921315
-        32B: 18 Subsections = 9216 buckets. Failed count: 1370413
-        48B: 34 Subsections = 11605 buckets. Failed count: 3649401
-        64B: 21 Subsections = 5376 buckets. Failed count: 1193796
-        80B: 86 Subsections = 17612 buckets. Failed count: 157560
-        96B: 5 Subsections = 853 buckets. Failed count: 1467960
-        112B: 2 Subsections = 292 buckets. Failed count: 43705
-        128B: 2 Subsections = 256 buckets. Failed count: 1665379
+        16B: 88 Subsections = 90112 buckets. Failed count: 8702344
+        32B: 18 Subsections = 9216 buckets. Failed count: 1960584
+        48B: 34 Subsections = 11605 buckets. Failed count: 5613555
+        64B: 21 Subsections = 5376 buckets. Failed count: 1642062
+        80B: 86 Subsections = 17612 buckets. Failed count: 214550
+        96B: 5 Subsections = 853 buckets. Failed count: 1968304
+        112B: 2 Subsections = 292 buckets. Failed count: 226831
+        128B: 2 Subsections = 256 buckets. Failed count: 1880862
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 11409 frames, [256.0 MB-0.50 GB]: 15633 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 637 frames, [256.0 MB-0.50 GB]: 36808 frames
       Requested Block Size 4.0 MB
-      Peak Block count 33
-      Peak Allocated memory 291.4 MB
-      Peak Large allocation bytes 172.4 MB
+      Peak Block count 35
+      Peak Allocated memory 286.6 MB
+      Peak Large allocation bytes 163.8 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [0.5 MB-1.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 9 frames, [16.0 MB-32.0 MB]: 6550 frames, [32.0 MB-64.0 MB]: 4380 frames, [64.0 MB-128.0 MB]: 91 frames, [128.0 MB-256.0 MB]: 113 frames, [256.0 MB-0.50 GB]: 15877 frames, [0.50 GB-1.00 GB]: 18 frames
+      Peak usage frame count: [0.5 MB-1.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 9 frames, [16.0 MB-32.0 MB]: 13 frames, [32.0 MB-64.0 MB]: 383 frames, [64.0 MB-128.0 MB]: 35 frames, [128.0 MB-256.0 MB]: 36969 frames, [256.0 MB-0.50 GB]: 20 frames, [0.50 GB-1.00 GB]: 12 frames
       Requested Block Size 4.0 MB
-      Peak Block count 88
-      Peak Allocated memory 0.60 GB
-      Peak Large allocation bytes 330.1 MB
+      Peak Block count 71
+      Peak Allocated memory 0.57 GB
+      Peak Large allocation bytes 348.5 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 2
     [ALLOC_BUCKET]
@@ -578,23 +451,23 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 6921315
-        32B: 18 Subsections = 9216 buckets. Failed count: 1370413
-        48B: 34 Subsections = 11605 buckets. Failed count: 3649401
-        64B: 21 Subsections = 5376 buckets. Failed count: 1193796
-        80B: 86 Subsections = 17612 buckets. Failed count: 157560
-        96B: 5 Subsections = 853 buckets. Failed count: 1467960
-        112B: 2 Subsections = 292 buckets. Failed count: 43705
-        128B: 2 Subsections = 256 buckets. Failed count: 1665379
+        16B: 88 Subsections = 90112 buckets. Failed count: 8702344
+        32B: 18 Subsections = 9216 buckets. Failed count: 1960584
+        48B: 34 Subsections = 11605 buckets. Failed count: 5613555
+        64B: 21 Subsections = 5376 buckets. Failed count: 1642062
+        80B: 86 Subsections = 17612 buckets. Failed count: 214550
+        96B: 5 Subsections = 853 buckets. Failed count: 1968304
+        112B: 2 Subsections = 292 buckets. Failed count: 226831
+        128B: 2 Subsections = 256 buckets. Failed count: 1880862
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 27042 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 37445 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 306.3 KB
+      Peak Allocated memory 321.8 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [16.0 KB-32.0 KB]: 4462 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 22579 frames
+      Peak usage frame count: [16.0 KB-32.0 KB]: 418 frames, [32.0 KB-64.0 KB]: 37026 frames, [64.0 KB-128.0 KB]: 1 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 79.7 KB
+      Peak Allocated memory 64.8 KB
       Peak Large allocation bytes 0 B

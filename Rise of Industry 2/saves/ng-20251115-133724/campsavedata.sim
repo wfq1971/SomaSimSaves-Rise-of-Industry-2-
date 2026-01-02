@@ -2,20 +2,41 @@
  id ng-20251115-133724
  compname "台灣重工業公司"
  mapProgress { 
-  burlington { cityId burlington }
-  milwaukee { cityId milwaukee }
-  peoria { cityId peoria }
-  chandler { cityId chandler }
+  topeka { 
+   highWater 21474836
+   cityId topeka
+   mapStarsCompleted 2
+   started #true
+  }
   cleveland { 
    highWater 21474836
    cityId cleveland
    mapStarsCompleted 3
    started #true
   }
+  traverse { cityId traverse }
+  milwaukee { 
+   highWater 18070616
+   cityId milwaukee
+   mapStarsCompleted 3
+   started #true
+  }
+  portland { cityId portland }
+  peoria { cityId peoria }
+  midland { 
+   highWater 3543000
+   cityId midland
+   mapStarsCompleted 2
+   started #true
+  }
+  burlington { cityId burlington }
+  santa-rosa { cityId santa-rosa }
+  spring-hill { cityId spring-hill }
+  chandler { cityId chandler }
  }
  boss { 
   ident 1
-  xp {  }
+  xp { current 72 }
   permanentBuffs { 
    states [  ]
   }
@@ -39,7 +60,7 @@
  elevatedPeeps [ 
   { 
    ident 3
-   xp {  }
+   xp { current 42 }
    companyTitle Us
    person { 
     traitIds [ trait-competitive trait-luddite ]
@@ -83,13 +104,14 @@
   }
   { 
    ident 2
-   xp { current 2249 level { level 2 id training-pro } lastThreshold 2 }
+   xp { current 2877 level { level 2 id training-pro } lastThreshold 2 }
    companyTitle Us
    person { 
     traitIds [ trait-organized trait-loner ]
     s 1
     g 2
     first Jeanne
+    cIdent 2
     portrait { 
      s 1
      hash 2566647701
@@ -104,7 +126,7 @@
   }
   { 
    ident 3
-   xp { current 104 level { level 1 id lab-boss } lastThreshold 1 }
+   xp { current 268 level { level 1 id lab-boss } lastThreshold 1 }
    companyTitle Us
    person { 
     traitIds [ trait-confident trait-calm ]
@@ -123,11 +145,30 @@
    metTitle 130
    metLocation cleveland
   }
+  { 
+   ident 2
+   xp { current 286 level { level 1 id hard-worker } lastThreshold 1 }
+   companyTitle Us
+   person { 
+    traitIds [ trait-organized trait-loner ]
+    s 1
+    g 2
+    first Vera
+    portrait { 
+     s 1
+     hash 1704633777
+     pieces [ female white F_White_Hair05 Empty_Hair_Back F_Outfit02Alt F_Outfit02Skin_White Empty_Hair_Mid F_White_Head01 F_White_Eyes05 F_White_Brows02 F_White_Nose05 F_White_Mouth05 F_Earrings04 ]
+     g 2
+    }
+    last Simpson
+    eth am
+   }
+   metTitle 140
+   metLocation milwaukee
+  }
  ]
- cashReserves 2147000
  colorrow 96
  complogo Z
- strategiesKnown [ logistics-expertise regional-connections ]
+ strategiesKnown [ logistics-expertise regional-connections recycler ]
  rng 3519577620
- researchReserves 390
 }
