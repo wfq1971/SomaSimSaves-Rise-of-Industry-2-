@@ -8,13 +8,13 @@
    mapStarsCompleted 2
    started #true
   }
+  burlington { cityId burlington }
   cleveland { 
    highWater 21474836
    cityId cleveland
    mapStarsCompleted 3
    started #true
   }
-  traverse { cityId traverse }
   milwaukee { 
    highWater 18070616
    cityId milwaukee
@@ -29,7 +29,7 @@
    mapStarsCompleted 2
    started #true
   }
-  burlington { cityId burlington }
+  traverse { cityId traverse }
   santa-rosa { cityId santa-rosa }
   spring-hill { cityId spring-hill }
   chandler { cityId chandler }

@@ -1,20 +1,20 @@
 Mono path[0] = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/Managed'
 Mono config path = 'S:/SteamLibrary/steamapps/common/Rise of Industry 2/MonoBleedingEdge/etc'
-Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-000001DF05034D00.dll
-Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-000001DF0A37B040.dll
-[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000018A091AA930.dll
+Fallback handler could not load library S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/MonoBleedingEdge/data-0000018A0E5D6040.dll
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 Initialize engine version: 2022.3.52f1 (1120fcb54228)
 [Subsystems] Discovering subsystems at path S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     2965 MB
-    Driver:   32.0.15.6094
+    VRAM:     12115 MB
+    Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.007 seconds
-- Finished resetting the current domain, in  0.001 seconds
+- Loaded All Assemblies, in  0.563 seconds
+- Finished resetting the current domain, in  0.002 seconds
 [Message:   BepInEx] BepInEx 5.4.21.0 - ROI2 (2025/11/7 上午 01:30:09)
 [Info   :   BepInEx] Running under Unity v2022.3.52.1122556
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -55,8 +55,8 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 [Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2019
 [Debug  :XUnity.AutoTranslator] Loaded resize command text files.
 [Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.31 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.14 seconds)
+[Debug  :XUnity.AutoTranslator] Created variation translations (took -0.02 seconds)
 [Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
 [Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2022.3.52f1] game.
 [Info   :   BepInEx] Loading [XUnity Resource Redirector 2.1.0]
@@ -66,27 +66,11 @@ New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
 <RI> Initialized touch support.
-[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-UnloadTime: 0.945300 ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+UnloadTime: 101.719100 ms
 InControl (version 1.8.8 build 9375)
 STARTING GAME
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 BUILD 1.0.8  - PLATFORM  DesktopPlatform
-[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
-PLATFORM LAUNCH INTENT: Default
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
-Save settings.txt success!
-Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
-Save gameplay.txt success!
-Steam initialized for Birmingham Night Skyline
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Found entities: 957 entries
-Found models: 0
-Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
-Found ui
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 Attached native device with handle 1:
 Name: OrayVHID
 Driver Type: DirectInput
@@ -97,249 +81,51 @@ Product ID: 0x6f72
 Version Number: 0x0
 Buttons: 16
 Analogs: 8
-Graphics model: Direct3D11, shader model 50, 2965 vram; 
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
+PLATFORM LAUNCH INTENT: Default
+Applying settings: 1920x1080, 60.0Hz, 100%, v=0, fs=True, q=3, maxfps=Max30
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\settings.txt
+Save settings.txt success!
+Saving prefs to path C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\prefs\gameplay.txt
+Save gameplay.txt success!
+Steam initialized for Birmingham Night Skyline
+Found entities: 957 entries
+Found models: 0
+Found maps: anaheim,boulder,burlington,chandler,cleveland,louisville,midland,milwaukee,peoria,portland,rochester,santa-rosa,spring-hill,st-louis,testcity,testcity,topeka,traverse,tutorial-island,vaporville,vaporville-test
+Found ui
+Graphics model: Direct3D11, shader model 50, 12115 vram; 
 Compute shaders: True, max compute 32, work group size 1024 / x 1024 / y 1024 / z 64; 
-Device: Direct3D 11.0 [level 11.1]; 7170 NVIDIA GeForce GTX 1060 3GB; 4318 NVIDIA; 
+Device: Direct3D 11.0 [level 11.1]; 9476 NVIDIA GeForce RTX 3060; 4318 NVIDIA; 
 Screen size: 1920 x 1080, 96 dpi, 1 % ui scale, fullscreen = True
 Installed dlcs: 
 Unexpected timestamp values detected. This can occur in H.264 videos not encoded with the baseline profile. Timestamps will be skewed to correct the playback for S:/SteamLibrary/steamapps/common/Rise of Industry 2/ROI2_Data/StreamingAssets//Clips/Intro Video.mp4
-Could not find savedata for slot C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\cleveland-20251115-134341
-Serialization error: Failed to deserialize primitive, desired type = System.Int32, actual type = System.Double, value = 3589040000 - System.OverflowException: Value was either too large or too small for an Int32.
-  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Double.System.IConvertible.ToInt32 (System.IFormatProvider provider) [0x00000] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at System.Convert.ToInt32 (System.Object value) [0x00003] in <1fd52158108c4fe3a6817b50854eb75e>:0 
-  at SomaSim.SimLang.Serializer+<>c.<.ctor>b__55_4 (System.Object obj) [0x00000] in <bbc679d9822344e9b5098de545c24803>:0 
-  at SomaSim.SimLang.Serializer.TryDeserializePrimitiveAsType (System.Object source, System.Type desiredType) [0x0002a] in <bbc679d9822344e9b5098de545c24803>:0 
-Serialization error: Deserializer can't populate class or struct from a non-hashtable: 3589040000 - 
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-the PS5 callback is being triggered
-Unloading 12 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 329 unused Assets to reduce memory usage. Loaded Objects now: 853626.
-Total: 712.213000 ms (FindLiveObjects: 103.978000 ms CreateObjectMapping: 12.367800 ms MarkObjects: 591.512600 ms  DeleteObjects: 4.354300 ms)
-
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Unloading 2 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 41804 unused Assets to reduce memory usage. Loaded Objects now: 2786140.
-Total: 1373.606900 ms (FindLiveObjects: 453.715400 ms CreateObjectMapping: 35.589500 ms MarkObjects: 854.480400 ms  DeleteObjects: 29.821200 ms)
-
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-185424-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-185727-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-190127-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-190451-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-213143-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-213558-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-214101-autosave
-NullReferenceException: Object reference not set to an instance of an object
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshHeader () [0x00026] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaTechSubview.RefreshSubview () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.SwitchToSubview (Game.UI.Session.HUD.EncyclopediaPageType type, System.Boolean force) [0x00053] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaController.SelectInfo (Game.UI.Session.HUD.EncyclopediaPage roc, System.Boolean addToHistory, System.Boolean switchToSubview) [0x0008c] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.ShowHelper (Game.UI.Session.HUD.EncyclopediaPage page) [0x00039] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.EncyclopediaDialog.Show (Game.UI.Session.HUD.EncyclopediaPageType type) [0x00043] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at Game.UI.Session.HUD.HUDBar.ToggleEncyclopedia () [0x00000] in <346042da8c0c455db69e268fca86a0e6>:0 
-  at SomaSim.Util.UIUtil+<>c__DisplayClass68_0.<SetButtonListener>b__0 () [0x00000] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <be2cce08ca774b9684099a81093ecac0>:0 
-  at UnityEngine.UI.SomaButton.Press () [0x00024] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.UI.SomaButton.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5488a8ff5fcf4d8f89bfd8ce89958998>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <4edbdb4fb7284e0cbbc9f9cfe24e27cd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-InControl.InControlInputModule:ProcessMousePress(MouseButtonEventData)
-InControl.InControlInputModule:ProcessMouseEvent(Int32)
-InControl.InControlInputModule:ProcessMouseEvent()
-InControl.InControlInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-214500-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-214815-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-215350-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-215929-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-220303-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-220633-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-220948-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-221311-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-221712-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-222043-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-222436-autosave
 [Error  :XUnity.AutoTranslator] Error occurred while retrieving translation. An error occurred in the pipeline.
-System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 基礎連接已關閉: 傳送時發生未預期的錯誤。 ---> System.IO.IOException: 驗證失敗，因為遠端群體已經關閉傳輸資料流。
-   於 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   於 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- 內部例外狀況堆疊追蹤的結尾 ---
-   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
-   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
-   --- 內部例外狀況堆疊追蹤的結尾 ---
-   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+System.Net.Http.HttpRequestException: 回應狀態碼未表示成功: 403 (Forbidden)。
+   於 System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
    於 DeepLTranslate.ExtProtocol.ExtDeepLTranslateLegitimate.<Translate>d__13.MoveNext()
 --- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
    於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    於 Http.ExtProtocol.Executor.ExtProtocolHandler.<RunAsync>d__4.MoveNext()
-[Error  :XUnity.AutoTranslator] Failed: '，每17天一次（平均每天6.41板条箱）。
-
-你想派Charlie Henderson去谈判吗？'
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+[Error  :XUnity.AutoTranslator] Failed: 'wpf cs - 加利福尼亚州阿纳海姆 （自动存档）'
+[Error  :XUnity.AutoTranslator] Failed: 'wpf cs - 加利福尼亚州阿纳海姆'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation. An error occurred in the pipeline.
+System.Net.Http.HttpRequestException: 回應狀態碼未表示成功: 403 (Forbidden)。
+   於 System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   於 DeepLTranslate.ExtProtocol.ExtDeepLTranslateLegitimate.<Translate>d__13.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 Http.ExtProtocol.Executor.ExtProtocolHandler.<RunAsync>d__4.MoveNext()
+[Error  :XUnity.AutoTranslator] Failed: 'wpf cs - 加利福尼亚州阿纳海姆'
+[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation. An error occurred in the pipeline.
+System.Net.Http.HttpRequestException: 回應狀態碼未表示成功: 403 (Forbidden)。
+   於 System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   於 DeepLTranslate.ExtProtocol.ExtDeepLTranslateLegitimate.<Translate>d__13.MoveNext()
+--- 先前擲回例外狀況之位置中的堆疊追蹤結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 Http.ExtProtocol.Executor.ExtProtocolHandler.<RunAsync>d__4.MoveNext()
+[Error  :XUnity.AutoTranslator] Failed: 'wpf cs - 加利福尼亚州阿纳海姆 （自动存档）'
 Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-222837-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-223240-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-223605-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-223932-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-224317-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-224608-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Found a choice point without any selections? Choice point:无可汇报 state: CPState 305
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-224947-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-225327-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-225633-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-230431-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-230720-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-231142-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-231520-autosave
-This scenario is completed
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-231920-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-232244-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-232547-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-232922-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-233306-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-233623-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-233937-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-234255-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-234546-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-234835-autosave
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-235124-autosave
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
-This scenario is completed
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Saving to file C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724\topeka-20260102-235334
-Scene 'Terrain Topeka' unloading has started!
-Scene 'Generic Pools' unloading has started!
-Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
-Entity manager had entities at shutdown, count = 1
-Scene 'Terrain Topeka' unloading has completed!
-Unloading 86021 unused Assets to reduce memory usage. Loaded Objects now: 699175.
-Total: 4773.739300 ms (FindLiveObjects: 186.396100 ms CreateObjectMapping: 29.446200 ms MarkObjects: 1577.193200 ms  DeleteObjects: 2980.703200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Scene 'Generic Pools' unloading has completed!
-Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 147734.
-Total: 285.843100 ms (FindLiveObjects: 35.744800 ms CreateObjectMapping: 2.405300 ms MarkObjects: 155.457400 ms  DeleteObjects: 92.234900 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 147734.
-Total: 181.987900 ms (FindLiveObjects: 18.514100 ms CreateObjectMapping: 2.233100 ms MarkObjects: 160.913900 ms  DeleteObjects: 0.326500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 147734.
-Total: 172.422700 ms (FindLiveObjects: 18.038600 ms CreateObjectMapping: 2.077100 ms MarkObjects: 151.956800 ms  DeleteObjects: 0.349500 ms)
-
-Saving to campaign directory C:\Users\john lee\AppData\LocalLow\SomaSim\Rise of Industry 2\saves\ng-20251115-133724
-Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 [Error  :XUnity.AutoTranslator] Error occurred while reading standard output from external process.
 System.Threading.ThreadAbortException: Thread was being aborted.
   at (wrapper managed-to-native) System.IO.MonoIO.Read(intptr,byte[],int,int,System.IO.MonoIOError&)
@@ -354,11 +140,11 @@ Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 621 frames, [8.0 KB-16.0 KB]: 1189 frames, [16.0 KB-32.0 KB]: 29 frames, [32.0 KB-64.0 KB]: 17 frames, [64.0 KB-128.0 KB]: 30 frames, [128.0 KB-256.0 KB]: 61 frames, [256.0 KB-0.5 MB]: 1264 frames, [0.5 MB-1.0 MB]: 211268 frames, [1.0 MB-2.0 MB]: 29120 frames, [2.0 MB-4.0 MB]: 2321 frames, [4.0 MB-8.0 MB]: 460 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 615 frames, [8.0 KB-16.0 KB]: 1341 frames, [16.0 KB-32.0 KB]: 26 frames, [32.0 KB-64.0 KB]: 16 frames, [64.0 KB-128.0 KB]: 27 frames, [128.0 KB-256.0 KB]: 3 frames, [2.0 MB-4.0 MB]: 8 frames, [4.0 MB-8.0 MB]: 1 frames
       Initial Block Size 4.0 MB
-      Current Block Size 7.7 MB
-      Peak Allocated Bytes 7.7 MB
-      Overflow Count 17
+      Current Block Size 5.1 MB
+      Peak Allocated Bytes 4.6 MB
+      Overflow Count 0
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
@@ -368,8 +154,23 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
       Peak Allocated Bytes 510.3 KB
-      Overflow Count 194
+      Overflow Count 138
     [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 43.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 5.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -379,32 +180,37 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 0]
-      Initial Block Size 256.0 KB
-      Current Block Size 480.0 KB
-      Peak Allocated Bytes 476.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 47.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 6]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 55.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 55.8 KB
+      Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 2
+    [ALLOC_TEMP_EnlightenWorker] x 4
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
       Peak Allocated Bytes 54 B
@@ -417,12 +223,12 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 1]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.0 KB
+      Peak Allocated Bytes 2.2 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 183 B
+      Peak Allocated Bytes 2.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 7]
       Initial Block Size 32.0 KB
@@ -432,9 +238,9 @@ Memory Statistics:
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 175.6 KB
-      Overflow Count 1
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Peak Allocated Bytes 147.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
       Peak Allocated Bytes 138 B
@@ -451,14 +257,14 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
-      Current Block Size 508.0 KB
-      Peak Allocated Bytes 504.8 KB
-      Overflow Count 2
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 55.8 KB
+      Overflow Count 0
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
-      Current Block Size 484.0 KB
-      Peak Allocated Bytes 480.9 KB
-      Overflow Count 1
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 47.3 KB
+      Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -477,7 +283,7 @@ Memory Statistics:
     [ALLOC_TEMP_CloudJob.Worker 0]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 14.4 KB
+      Peak Allocated Bytes 3.4 KB
       Overflow Count 0
     [ALLOC_TEMP_HIDInput]
       Initial Block Size 64.0 KB
@@ -495,32 +301,32 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 390531
+  Peak main deferred allocation count 11904
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
-        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
-        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
-        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
-        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
-        96B: 5 Subsections = 853 buckets. Failed count: 12724858
-        112B: 2 Subsections = 292 buckets. Failed count: 1186172
-        128B: 2 Subsections = 256 buckets. Failed count: 3210903
+        16B: 88 Subsections = 90112 buckets. Failed count: 788139
+        32B: 18 Subsections = 9216 buckets. Failed count: 66164
+        48B: 34 Subsections = 11605 buckets. Failed count: 159598
+        64B: 21 Subsections = 5376 buckets. Failed count: 26586
+        80B: 86 Subsections = 17612 buckets. Failed count: 12654
+        96B: 5 Subsections = 853 buckets. Failed count: 109487
+        112B: 2 Subsections = 292 buckets. Failed count: 3123
+        128B: 2 Subsections = 256 buckets. Failed count: 36254
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 78 frames, [64.0 MB-128.0 MB]: 1000 frames, [128.0 MB-256.0 MB]: 854 frames, [256.0 MB-0.50 GB]: 87 frames, [0.50 GB-1.00 GB]: 302 frames, [1.00 GB-2.00 GB]: 244059 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 72
-      Peak Allocated memory 1.61 GB
-      Peak Large allocation bytes 0.77 GB
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 725 frames, [16.0 MB-32.0 MB]: 928 frames, [32.0 MB-64.0 MB]: 145478 frames, [64.0 MB-128.0 MB]: 99249 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 83 frames, [64.0 MB-128.0 MB]: 1954 frames
       Requested Block Size 16.0 MB
       Peak Block count 5
-      Peak Allocated memory 103.4 MB
-      Peak Large allocation bytes 85.3 MB
+      Peak Allocated memory 75.4 MB
+      Peak Large allocation bytes 8.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 936 frames, [16.0 MB-32.0 MB]: 1100 frames, [64.0 MB-128.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 68.1 MB
+      Peak Large allocation bytes 64.0 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -534,91 +340,91 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
   Used Block Count 1
-  Overflow Count (too large) 908
+  Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
   Used Block Count 1
-  Overflow Count (too large) 3
+  Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 7846
+  Peak main deferred allocation count 14
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
-        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
-        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
-        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
-        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
-        96B: 5 Subsections = 853 buckets. Failed count: 12724858
-        112B: 2 Subsections = 292 buckets. Failed count: 1186172
-        128B: 2 Subsections = 256 buckets. Failed count: 3210903
+        16B: 88 Subsections = 90112 buckets. Failed count: 788139
+        32B: 18 Subsections = 9216 buckets. Failed count: 66164
+        48B: 34 Subsections = 11605 buckets. Failed count: 159598
+        64B: 21 Subsections = 5376 buckets. Failed count: 26586
+        80B: 86 Subsections = 17612 buckets. Failed count: 12654
+        96B: 5 Subsections = 853 buckets. Failed count: 109487
+        112B: 2 Subsections = 292 buckets. Failed count: 3123
+        128B: 2 Subsections = 256 buckets. Failed count: 36254
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 1348 frames, [128.0 MB-256.0 MB]: 565 frames, [256.0 MB-0.50 GB]: 149191 frames, [0.50 GB-1.00 GB]: 95276 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 821 frames, [128.0 MB-256.0 MB]: 1216 frames
       Requested Block Size 16.0 MB
-      Peak Block count 28
-      Peak Allocated memory 0.57 GB
-      Peak Large allocation bytes 181.7 MB
+      Peak Block count 6
+      Peak Allocated memory 148.6 MB
+      Peak Large allocation bytes 64.0 MB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [8.0 KB-16.0 KB]: 3 frames, [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 850 frames, [16.0 MB-32.0 MB]: 782 frames, [32.0 MB-64.0 MB]: 59 frames, [64.0 MB-128.0 MB]: 35 frames, [128.0 MB-256.0 MB]: 244650 frames
+      Peak usage frame count: [8.0 KB-16.0 KB]: 4 frames, [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 74 frames, [16.0 MB-32.0 MB]: 1958 frames
       Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 218.7 MB
-      Peak Large allocation bytes 154.7 MB
+      Peak Block count 2
+      Peak Allocated memory 17.5 MB
+      Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 69508
+  Peak main deferred allocation count 10
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
-        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
-        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
-        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
-        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
-        96B: 5 Subsections = 853 buckets. Failed count: 12724858
-        112B: 2 Subsections = 292 buckets. Failed count: 1186172
-        128B: 2 Subsections = 256 buckets. Failed count: 3210903
+        16B: 88 Subsections = 90112 buckets. Failed count: 788139
+        32B: 18 Subsections = 9216 buckets. Failed count: 66164
+        48B: 34 Subsections = 11605 buckets. Failed count: 159598
+        64B: 21 Subsections = 5376 buckets. Failed count: 26586
+        80B: 86 Subsections = 17612 buckets. Failed count: 12654
+        96B: 5 Subsections = 853 buckets. Failed count: 109487
+        112B: 2 Subsections = 292 buckets. Failed count: 3123
+        128B: 2 Subsections = 256 buckets. Failed count: 36254
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [128.0 MB-256.0 MB]: 1913 frames, [256.0 MB-0.50 GB]: 244467 frames
+      Peak usage frame count: [128.0 MB-256.0 MB]: 2037 frames
       Requested Block Size 4.0 MB
-      Peak Block count 35
-      Peak Allocated memory 288.7 MB
-      Peak Large allocation bytes 163.8 MB
+      Peak Block count 27
+      Peak Allocated memory 227.4 MB
+      Peak Large allocation bytes 131.0 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [0.5 MB-1.0 MB]: 3 frames, [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 38 frames, [16.0 MB-32.0 MB]: 814 frames, [32.0 MB-64.0 MB]: 912 frames, [64.0 MB-128.0 MB]: 47 frames, [128.0 MB-256.0 MB]: 244559 frames, [0.50 GB-1.00 GB]: 6 frames
+      Peak usage frame count: [0.5 MB-1.0 MB]: 4 frames, [1.0 MB-2.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 43 frames, [16.0 MB-32.0 MB]: 31 frames, [32.0 MB-64.0 MB]: 1953 frames, [64.0 MB-128.0 MB]: 5 frames
       Requested Block Size 4.0 MB
-      Peak Block count 71
-      Peak Allocated memory 0.55 GB
-      Peak Large allocation bytes 330.1 MB
+      Peak Block count 20
+      Peak Allocated memory 67.3 MB
+      Peak Large allocation bytes 0 B
 [ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 2
+  Peak main deferred allocation count 0
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 88 Subsections = 90112 buckets. Failed count: 19744531
-        32B: 18 Subsections = 9216 buckets. Failed count: 5154145
-        48B: 34 Subsections = 11605 buckets. Failed count: 35109832
-        64B: 21 Subsections = 5376 buckets. Failed count: 3195180
-        80B: 86 Subsections = 17612 buckets. Failed count: 1463582
-        96B: 5 Subsections = 853 buckets. Failed count: 12724858
-        112B: 2 Subsections = 292 buckets. Failed count: 1186172
-        128B: 2 Subsections = 256 buckets. Failed count: 3210903
+        16B: 88 Subsections = 90112 buckets. Failed count: 788139
+        32B: 18 Subsections = 9216 buckets. Failed count: 66164
+        48B: 34 Subsections = 11605 buckets. Failed count: 159598
+        64B: 21 Subsections = 5376 buckets. Failed count: 26586
+        80B: 86 Subsections = 17612 buckets. Failed count: 12654
+        96B: 5 Subsections = 853 buckets. Failed count: 109487
+        112B: 2 Subsections = 292 buckets. Failed count: 3123
+        128B: 2 Subsections = 256 buckets. Failed count: 36254
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 246380 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 2037 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 321.8 KB
+      Peak Allocated memory 306.3 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [16.0 KB-32.0 KB]: 1009 frames, [32.0 KB-64.0 KB]: 245370 frames, [64.0 KB-128.0 KB]: 1 frames
+      Peak usage frame count: [16.0 KB-32.0 KB]: 2037 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 64.8 KB
+      Peak Allocated memory 22.7 KB
       Peak Large allocation bytes 0 B
